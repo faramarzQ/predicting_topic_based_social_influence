@@ -1,12 +1,5 @@
 import repository
 
-if __name__ == '__main__':
-    data = repository.getCleanedData()
-
-    classifyByCitations(data)
-    classifyByFriendsCount(data)
-
-
 def classifyByCitations(data):
     """ classifies users by their citations
 
@@ -81,3 +74,9 @@ def classifyByFriendsCount(data):
     repository.writeClassifiedUserByFriendsInFile(classes)
 pass
 
+
+if __name__ == '__main__':
+    data = repository.getCleanedData()
+
+    classifyByCitations(data)
+    classifyByFriendsCount(data)

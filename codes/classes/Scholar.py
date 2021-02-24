@@ -29,7 +29,9 @@ class Scholar:
 
         for attr in self.desired_features['scholar']:
             if attr in data.keys():
-                setattr(self, attr, data[attr])
+                if data[attr] == '':
+                    data[attr] = 0
+                setattr(self, attr, int(data[attr]))
     pass
 
     def getAsDict(self):
