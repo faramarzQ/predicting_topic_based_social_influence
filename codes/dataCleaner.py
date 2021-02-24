@@ -1,7 +1,8 @@
-import json
 import os
+import json
 
 from classes import User
+import repository
 
 if __name__ == '__main__':
     """ this file exports cleaned data for each user:
@@ -15,41 +16,27 @@ if __name__ == '__main__':
         output: total number of urls in all tweets
     """
 
-    file_directories = {
-        'raw_data_import': '/home/faramarz/Documents/coding_projects/SICTR/data/test',
-        'cleaned_data_export': '/home/faramarz/Documents/coding_projects/SICTR/data/test_filtered_data/',
-    }
-
-    # import names of json file in the given directory
-    filesPaths = []
-    for r, d, f in os.walk(file_directories['raw_data_import']):
-        for file in f:
-                if '.json' in file:
-                    filesPaths.append(os.path.join(r, file))
+    # get list of twitter files
+    filesPaths = repository.getTwitterFilePaths()
 
     desired_features = {
-        'user': ['id', 'name', 'favourites_count', 'followers_count', 'friends_count', 'tweets'],
+        'user': ['id', 'name', 'favourites_count', 'followers_count', 'friends_count', 'tweets', 'scholar'],
         'tweet': ['id', 'preprocessed_text'],
+        'scholar': ['citations', 'h_index', 'papers_count']
     }
 
-
-    data = {}
     single_user_data = {}
-
     # attach all tweets of each user in a separate file as a json format
     for file in filesPaths:
         single_user_data['users'] = {}
-
         with open(file) as jsonFile:
-            tempFile = json.load(jsonFile)
+            tempTwitterFile = json.load(jsonFile)
             userObj = User.User(desired_features)
-            userObj.initWithRawData(tempFile)
-
+            userObj.initWithRawData(tempTwitterFile)
             single_user_data = userObj.getAsDict()
 
-            # write user and it's tweets in a file, named with user's id
-            with open(file_directories['cleaned_data_export']+str(userObj.id)+".json", "w") as file:
-                json.dump(single_user_data, file)
+            # write cleaned data in file
+            repository.writeCleanedUserJsonToFile(single_user_data, userObj.id)
 
             del userObj
 pass

@@ -1,0 +1,731 @@
+{
+  "id": "TA2fG64AAAAJ",
+  "name": "Stefan Harmeling",
+  "citations": "",
+  "hindex": "",
+  "papers": [
+    {
+    "title": "Learning to detect unseen object classes by between-class attribute transfer",
+    "Authors": "Christoph H Lampert, Hannes Nickisch, Stefan Harmeling",
+    "Publication date": "2009/6/20",
+    "Conference": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+    "Pages": "951-958",
+    "Publisher": "IEEE",
+    "Description": "We study the problem of object classification when training and test classes are disjoint, i.e. no training examples of the target classes are available. This setup has hardly been studied in computer vision research, but it is the rule rather than the exception, because the world contains tens of thousands of different object classes and for only a very few of them image, collections have been formed and annotated with suitable class labels. In this paper, we tackle the problem by introducing attribute-based classification. It performs object detection based on a human-specified high-level description of the target objects instead of training images. The description consists of arbitrary semantic attributes, like shape, color or even geographic information. Because such properties transcend the specific learning task at hand, they can be pre-learned, e.g. from image datasets unrelated to the current task. Afterwards, new \u2026",
+    "Total citations": "Cited by 1452\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Learning to detect unseen object classes by between-class attribute transfer\nCH Lampert, H Nickisch, S Harmeling - 2009 IEEE Conference on Computer Vision and \u2026, 2009\nCited by 1452 Related articles All 20 versions"
+  }, {
+    "title": "Attribute-based classification for zero-shot visual object categorization",
+    "Authors": "Christoph H Lampert, Hannes Nickisch, Stefan Harmeling",
+    "Publication date": "2013/7/30",
+    "Journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "Volume": "36",
+    "Issue": "3",
+    "Pages": "453-465",
+    "Publisher": "IEEE",
+    "Description": "We study the problem of object recognition for categories for which we have no training examples, a task also called zero--data or zero-shot learning. This situation has hardly been studied in computer vision research, even though it occurs frequently; the world contains tens of thousands of different object classes, and image collections have been formed and suitably annotated for only a few of them. To tackle the problem, we introduce attribute-based classification: Objects are identified based on a high-level description that is phrased in terms of semantic attributes, such as the object's color or shape. Because the identification of each such property transcends the specific learning task at hand, the attribute classifiers can be prelearned independently, for example, from existing image data sets unrelated to the current task. Afterward, new classes can be detected based on their attribute representation, without the \u2026",
+    "Total citations": "Cited by 652\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Attribute-based classification for zero-shot visual object categorization\nCH Lampert, H Nickisch, S Harmeling - IEEE Transactions on Pattern Analysis and Machine \u2026, 2013\nCited by 652 Related articles All 13 versions"
+  }, {
+    "title": "Image denoising: Can plain neural networks compete with BM3D?",
+    "Authors": "Harold C Burger, Christian J Schuler, Stefan Harmeling",
+    "Publication date": "2012/6/16",
+    "Conference": "2012 IEEE conference on computer vision and pattern recognition",
+    "Pages": "2392-2399",
+    "Publisher": "IEEE",
+    "Description": "Image denoising can be described as the problem of mapping from a noisy image to a noise-free image. The best currently available denoising methods approximate this mapping with cleverly engineered algorithms. In this work we attempt to learn this mapping directly with a plain multi layer perceptron (MLP) applied to image patches. While this has been done before, we will show that by training on large image databases we are able to compete with the current state-of-the-art image denoising methods. Furthermore, our approach is easily adapted to less extensively studied types of noise (by merely exchanging the training data), for which we achieve excellent results as well.",
+    "Total citations": "Cited by 605\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Image denoising: Can plain neural networks compete with BM3D?\nHC Burger, CJ Schuler, S Harmeling - 2012 IEEE conference on computer vision and pattern \u2026, 2012\nCited by 605 Related articles All 20 versions"
+  }, {
+    "title": "How to explain individual classification decisions",
+    "Authors": "David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, Klaus-Robert M\u00c3\u017eller",
+    "Publication date": "2010",
+    "Journal": "Journal of Machine Learning Research",
+    "Volume": "11",
+    "Issue": "Jun",
+    "Pages": "1803-1831",
+    "Description": "After building a classifier with modern tools of machine learning we typically have a black box at hand that is able to predict well for unseen data. Thus, we get an answer to the question what is the most likely label of a given unseen data point. However, most methods will provide no answer why the model predicted a particular label for a single instance and what features were most influential for that particular instance. The only method that is currently able to provide such explanations are decision trees. This paper proposes a procedure which (based on a set of assumptions) allows to explain the decisions of any classification method.",
+    "Total citations": "Cited by 309\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "How to explain individual classification decisions\nD Baehrens, T Schroeter, S Harmeling, M Kawanabe\u2026 - Journal of Machine Learning Research, 2010\nCited by 309 Related articles All 16 versions\nHow to Explain Individual Classification Decisions*\nS Harmeling, M Kawanabe, KR M\u00fcller\nRelated articles"
+  }, {
+    "title": "Fast removal of non-uniform camera shake",
+    "Authors": "Michael Hirsch, Christian J Schuler, Stefan Harmeling, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2011/11/6",
+    "Conference": "2011 International Conference on Computer Vision",
+    "Pages": "463-470",
+    "Publisher": "IEEE",
+    "Description": "Camera shake leads to non-uniform image blurs. State-of-the-art methods for removing camera shake model the blur as a linear combination of homographically transformed versions of the true image. While this is conceptually interesting, the resulting algorithms are computationally demanding. In this paper we develop a forward model based on the efficient filter flow framework, incorporating the particularities of camera shake, and show how an efficient algorithm for blur removal can be obtained. Comprehensive comparisons on a number of real-world blurry images show that our approach is not only substantially faster, but it also leads to better deblurring results.",
+    "Total citations": "Cited by 233\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Fast removal of non-uniform camera shake\nM Hirsch, CJ Schuler, S Harmeling, B Sch\u00f6lkopf - 2011 International Conference on Computer Vision, 2011\nCited by 233 Related articles All 16 versions"
+  }, {
+    "title": "Results of the GREAT08 Challenge: an image analysis competition for cosmological lensing",
+    "Authors": "Sarah Bridle, Sreekumar T Balan, Matthias Bethge, Marc Gentile, Stefan Harmeling, Catherine Heymans, Michael Hirsch, Reshad Hosseini, Mike Jarvis, Donnacha Kirk, Thomas Kitching, Konrad Kuijken, Antony Lewis, Stephane Paulin-Henriksson, Bernhard Sch\u00f6lkopf, Malin Velander, Lisa Voigt, Dugan Witherick, Adam Amara, Gary Bernstein, Fr\u00e9d\u00e9ric Courbin, Mandeep Gill, Alan Heavens, Rachel Mandelbaum, Richard Massey, Baback Moghaddam, Anais Rassat, Alexandre R\u00e9fr\u00e9gier, Jason Rhodes, Tim Schrabback, John Shawe-Taylor, Marina Shmakova, Ludovic van Waerbeke, David Wittman",
+    "Publication date": "2010/6/23",
+    "Journal": "Monthly Notices of the Royal Astronomical Society",
+    "Volume": "405",
+    "Issue": "3",
+    "Pages": "2044-2061",
+    "Publisher": "Blackwell Publishing Ltd",
+    "Description": "We present the results of the Gravitational LEnsing Accuracy Testing 2008 (GREAT08) Challenge, a blind analysis challenge to infer weak gravitational lensing shear distortions from images. The primary goal was to stimulate new ideas by presenting the problem to researchers outside the shear measurement community. Six GREAT08 Team methods were presented at the launch of the Challenge and five additional groups submitted results during the 6-month competition. Participants analyzed 30 million simulated galaxies with a range in signal-to-noise ratio, point spread function ellipticity, galaxy size and galaxy type. The large quantity of simulations allowed shear measurement methods to be assessed at a level of accuracy suitable for currently planned future cosmic shear observations for the first time. Different methods perform well in different parts of simulation parameter space and come close to the \u2026",
+    "Total citations": "Cited by 189\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Results of the GREAT08 Challenge: an image analysis competition for cosmological lensing\nS Bridle, ST Balan, M Bethge, M Gentile, S Harmeling\u2026 - Monthly Notices of the Royal Astronomical Society, 2010\nCited by 189 Related articles All 39 versions"
+  }, {
+    "title": "Recording and playback of camera shake: Benchmarking blind deconvolution with a real-world database",
+    "Authors": "Rolf K\u00f6hler, Michael Hirsch, Betty Mohler, Bernhard Sch\u00f6lkopf, Stefan Harmeling",
+    "Publication date": "2012/10/7",
+    "Conference": "European conference on computer vision",
+    "Pages": "27-40",
+    "Publisher": "Springer, Berlin, Heidelberg",
+    "Description": "Motion blur due to camera shake is one of the predominant sources of degradation in handheld photography. Single image blind deconvolution (BD) or motion deblurring aims at restoring a sharp latent image from the blurred recorded picture without knowing the camera motion that took place during the exposure. BD is a long-standing problem, but has attracted much attention recently, cumulating in several algorithms able to restore photos degraded by real camera motion in high quality. In this paper, we present a benchmark dataset for motion deblurring that allows quantitative performance evaluation and comparison of recent approaches featuring non-uniform blur models. To this end, we record and analyse real camera motion, which is played back on a robot platform such that we can record a sequence of sharp images sampling the six dimensional camera motion trajectory. The goal of deblurring is \u2026",
+    "Total citations": "Cited by 188\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Recording and playback of camera shake: Benchmarking blind deconvolution with a real-world database\nR K\u00f6hler, M Hirsch, B Mohler, B Sch\u00f6lkopf\u2026 - European conference on computer vision, 2012\nCited by 188 Related articles All 14 versions\nRecording and playback of camera shake: benchmarking blind deconvolution*\nR Kohler, M Hirsch, B Mohler, B Scholkopf\u2026\nRelated articles"
+  }, {
+    "title": "Efficient filter flow for space-variant multiframe blind deconvolution",
+    "Authors": "Michael Hirsch, Suvrit Sra, Bernhard Sch\u00f6lkopf, Stefan Harmeling",
+    "Publication date": "2010/6/13",
+    "Conference": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+    "Pages": "607-614",
+    "Publisher": "IEEE",
+    "Description": "Ultimately being motivated by facilitating space-variant blind deconvolution, we present a class of linear transformations, that are expressive enough for space-variant filters, but at the same time especially designed for efficient matrix-vector-multiplications. Successful results on astronomical imaging through atmospheric turbulences and on noisy magnetic resonance images of constantly moving objects demonstrate the practical significance of our approach.",
+    "Total citations": "Cited by 183\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Efficient filter flow for space-variant multiframe blind deconvolution\nM Hirsch, S Sra, B Sch\u00f6lkopf, S Harmeling - 2010 IEEE Computer Society Conference on Computer \u2026, 2010\nCited by 183 Related articles All 13 versions"
+  }, {
+    "title": "Learning to deblur",
+    "Authors": "Christian J Schuler, Michael Hirsch, Stefan Harmeling, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2015/9/23",
+    "Journal": "IEEE transactions on pattern analysis and machine intelligence",
+    "Volume": "38",
+    "Issue": "7",
+    "Pages": "1439-1451",
+    "Publisher": "IEEE",
+    "Description": "We describe a learning-based approach to blind image deconvolution. It uses a deep layered architecture, parts of which are borrowed from recent work on neural network learning, and parts of which incorporate computations that are specific to image deconvolution. The system is trained end-to-end on a set of artificially generated training examples, enabling competitive performance in blind deconvolution, both with respect to quality and runtime.",
+    "Total citations": "Cited by 161\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Learning to deblur\nCJ Schuler, M Hirsch, S Harmeling, B Sch\u00f6lkopf - IEEE transactions on pattern analysis and machine \u2026, 2015\nCited by 161 Related articles All 13 versions"
+  }, {
+    "title": "Image analysis for cosmology: results from the GREAT10 Galaxy Challenge",
+    "Authors": "TD Kitching, ST Balan, S Bridle, N Cantale, F Courbin, T Eifler, M Gentile, MSS Gill, S Harmeling, C Heymans, M Hirsch, K Honscheid, T Kacprzak, D Kirkby, D Margala, RJ Massey, P Melchior, G Nurbaeva, K Patton, J Rhodes, BTP Rowe, AN Taylor, M Tewes, M Viola, D Witherick, L Voigt, J Young, J Zuntz",
+    "Publication date": "2012/7/4",
+    "Journal": "Monthly Notices of the Royal Astronomical Society",
+    "Volume": "423",
+    "Issue": "4",
+    "Pages": "3163-3208",
+    "Publisher": "Blackwell Publishing Ltd",
+    "Description": "In this paper, we present results from the weak-lensing shape measurement GRavitational lEnsing Accuracy Testing 2010 (GREAT10) Galaxy Challenge. This marks an order of magnitude step change in the level of scrutiny employed in weak-lensing shape measurement analysis. We provide descriptions of each method tested and include 10 evaluation metrics over 24 simulation branches.\nGREAT10 was the first shape measurement challenge to include variable fields; both the shear field and the point spread function (PSF) vary across the images in a realistic manner. The variable fields enable a variety of metrics that are inaccessible to constant shear simulations, including a direct measure of the impact of shape measurement inaccuracies, and the impact of PSF size and ellipticity, on the shear power spectrum. To assess the impact of shape measurement bias for cosmic shear, we present a general \u2026",
+    "Total citations": "Cited by 153\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Image analysis for cosmology: results from the GREAT10 Galaxy Challenge\nTD Kitching, ST Balan, S Bridle, N Cantale, F Courbin\u2026 - Monthly Notices of the Royal Astronomical Society, 2012\nCited by 153 Related articles All 18 versions"
+  }, {
+    "title": "Kernel-based nonlinear blind source separation",
+    "Authors": "Stefan Harmeling, Andreas Ziehe, Motoaki Kawanabe, Klaus-Robert M\u00fcller",
+    "Publication date": "2003/5/1",
+    "Journal": "Neural Computation",
+    "Volume": "15",
+    "Issue": "5",
+    "Pages": "1089-1124",
+    "Publisher": "MIT Press",
+    "Description": "We propose kTDSEP, a kernel-based algorithm for nonlinear blind source separation (BSS). It combines complementary research fields: kernel feature spaces and BSS using temporal information. This yields an efficient algorithm for nonlinear BSS with invertible nonlinearity. Key assumptions are that the kernel feature space is chosen rich enough to approximate the nonlinearity and that signals of interest contain temporal information. Both assumptions are fulfilled for a wide set of real-world applications. The algorithm works as follows: First, the data are (implicitly) mapped to a high (possibly infinite)\u2014dimensional kernel feature space. In practice, however, the data form a smaller submanifold in feature space\u2014even smaller than the number of training data points\u2014a fact that has already been used by, for example, reduced set techniques for support vector machines. We propose to adapt to this effective dimension \u2026",
+    "Total citations": "Cited by 146\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Kernel-based nonlinear blind source separation\nS Harmeling, A Ziehe, M Kawanabe, KR M\u00fcller - Neural Computation, 2003\nCited by 146 Related articles All 11 versions"
+  }, {
+    "title": "A machine learning approach for non-blind image deconvolution",
+    "Authors": "Christian J Schuler, Harold Christopher Burger, Stefan Harmeling, Bernhard Scholkopf",
+    "Publication date": "2013",
+    "Conference": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "Pages": "1067-1074",
+    "Description": "Image deconvolution is the ill-posed problem of recovering a sharp image, given a blurry one generated by a convolution. In this work, we deal with space-invariant nonblind deconvolution. Currently, the most successful methods involve a regularized inversion of the blur in Fourier domain as a first step. This step amplifies and colors the noise, and corrupts the image information. In a second (and arguably more difficult) step, one then needs to remove the colored noise, typically using a cleverly engineered algorithm. However, the methods based on this two-step approach do not properly address the fact that the image information has been corrupted. In this work, we also rely on a two-step procedure, but learn the second step on a large dataset of natural images, using a neural network. We will show that this approach outperforms the current state-ofthe-art on a large dataset of artificially blurred images. We demonstrate the practical applicability of our method in a real-world example with photographic out-of-focus blur.",
+    "Total citations": "Cited by 145\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "A machine learning approach for non-blind image deconvolution\nCJ Schuler, H Christopher Burger, S Harmeling\u2026 - Proceedings of the IEEE Conference on Computer \u2026, 2013\nCited by 145 Related articles All 17 versions"
+  }, {
+    "title": "Space-variant single-image blind deconvolution for removing camera shake",
+    "Authors": "Stefan Harmeling, Hirsch Michael, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2010",
+    "Conference": "Advances in Neural Information Processing Systems",
+    "Pages": "829-837",
+    "Description": "Modelling camera shake as a space-invariant convolution simplifies the problem of removing camera shake, but often insufficiently models actual motion blur such as those due to camera rotation and movements outside the sensor plane or when objects in the scene have different distances to the camera. In order to overcome such limitations we contribute threefold:(i) we introduce a taxonomy of camera shakes,(ii) we show how to combine a recently introduced framework for space-variant filtering based on overlap-add from Hirsch et al.~ and a fast algorithm for single image blind deconvolution for space-invariant filters from Cho and Lee to introduce a method for blind deconvolution for space-variant blur. And (iii), we present an experimental setup for evaluation that allows us to take images with real camera shake while at the same time record the space-variant point spread function corresponding to that blur. Finally, we demonstrate that our method is able to deblur images degraded by spatially-varying blur originating from real camera shake.",
+    "Total citations": "Cited by 103\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Space-variant single-image blind deconvolution for removing camera shake\nS Harmeling, H Michael, B Sch\u00f6lkopf - Advances in Neural Information Processing Systems, 2010\nCited by 103 Related articles All 8 versions"
+  }, {
+    "title": "From outliers to prototypes: ordering data",
+    "Authors": "Stefan Harmeling, Guido Dornhege, David Tax, Frank Meinecke, Klaus-Robert M\u00fcller",
+    "Publication date": "2006/8/1",
+    "Journal": "Neurocomputing",
+    "Volume": "69",
+    "Issue": "13-15",
+    "Pages": "1608-1618",
+    "Publisher": "Elsevier",
+    "Description": "We propose simple and fast methods based on nearest neighbors that order objects from high-dimensional data sets from typical points to untypical points. On the one hand, we show that these easy-to-compute orderings allow us to detect outliers (i.e. very untypical points) with a performance comparable to or better than other often much more sophisticated methods. On the other hand, we show how to use these orderings to detect prototypes (very typical points) which facilitate exploratory data analysis algorithms such as noisy nonlinear dimensionality reduction and clustering. Comprehensive experiments demonstrate the validity of our approach.",
+    "Total citations": "Cited by 100\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "From outliers to prototypes: ordering data\nS Harmeling, G Dornhege, D Tax, F Meinecke\u2026 - Neurocomputing, 2006\nCited by 100 Related articles All 13 versions"
+  }, {
+    "title": "Probabilistic inference for solving (PO) MDPs",
+    "Authors": "Marc Toussaint, Stefan Harmeling, Amos Storkey",
+    "Publication date": "2006/12",
+    "Journal": "University of Edinburgh, School of Informatics Research Report EDI-INF-RR-0934",
+    "Description": "The development of probabilistic inference techniques has made considerable progress in recent years, in particular with respect to exploiting the structure (eg, factored, hierarchical or relational) of discrete and continuous problem domains. We show that these techniques can be used also for solving Markov Decision Processes (MDPs) or partial observable MDPs (POMDPs) when formulated in terms of a structured dynamic Bayesian network (DBN). The approach is based on an equivalence between maximization of the expected future return in the time-unlimited MDP and likelihood maximization in a related mixture of finite-time MDPs. This allows us to use expectation maximization (EM) for computing optimal policies, using arbitrary inference techniques in the E-step. Unlike previous approaches we can show that this actually optimizes the discounted expected future return for arbitrary reward functions and without assuming an ad hoc finite total time.\nWe first develop the approach for standard MDPs and demonstrate it using exact inference on a discrete maze and Gaussian belief state propagation in non-linear stochastic optimal control problems. Then we present an extension for solving POMDPs. We consider an agent model that includes an internal memory variable used for gating reactive behaviors. Using exact inference on the respective DBN, the EM-algorithm solves complex maze problems by learning appropriate internal memory representations.",
+    "Total citations": "Cited by 91\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Probabilistic inference for solving (PO) MDPs\nM Toussaint, S Harmeling, A Storkey - University of Edinburgh, School of Informatics \u2026, 2006\nCited by 91 Related articles All 19 versions"
+  }, {
+    "title": "A few extreme events dominate global interannual variability in gross primary production",
+    "Authors": "Jakob Zscheischler, Miguel D Mahecha, Jannis Von Buttlar, Stefan Harmeling, Martin Jung, Anja Rammig, James T Randerson, Bernhard Sch\u00f6lkopf, Sonia I Seneviratne, Enrico Tomelleri, S\u00f6nke Zaehle, Markus Reichstein",
+    "Publication date": "2014/3/4",
+    "Journal": "Environmental Research Letters",
+    "Volume": "9",
+    "Issue": "3",
+    "Pages": "035001",
+    "Publisher": "IOP Publishing",
+    "Description": "Understanding the impacts of climate extremes on the carbon cycle is important for quantifying the carbon-cycle climate feedback and highly relevant to climate change assessments. Climate extremes and fires can have severe regional effects, but a spatially explicit global impact assessment is still lacking. Here, we directly quantify spatiotemporal contiguous extreme anomalies in four global data sets of gross primary production (GPP) over the last 30 years. We find that positive and negative GPP extremes occurring on 7% of the spatiotemporal domain explain 78% of the global interannual variation in GPP and a significant fraction of variation in the net carbon flux. The largest thousand negative GPP extremes during 1982\u20132011 (4.3% of the data) account for a decrease in photosynthetic carbon uptake of about 3.5 Pg C yr\u2212 1, with most events being attributable to water scarcity. The results imply that it is essential \u2026",
+    "Total citations": "Cited by 90\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "A few extreme events dominate global interannual variability in gross primary production\nJ Zscheischler, MD Mahecha, J Von Buttlar\u2026 - Environmental Research Letters, 2014\nCited by 90 Related articles All 14 versions"
+  }, {
+    "title": "Blind separation of post-nonlinear mixtures using linearizing transformations and temporal decorrelation",
+    "Authors": "Andreas Ziehe, Motoaki Kawanabe, Stefan Harmeling, Klaus-Robert M\u00c3\u017eller",
+    "Publication date": "2003",
+    "Journal": "Journal of Machine Learning Research",
+    "Volume": "4",
+    "Issue": "Dec",
+    "Pages": "1319-1338",
+    "Description": "We propose two methods that reduce the post-nonlinear blind source separation problem (PNL-BSS) to a linear BSS problem. The first method is based on the concept of maximal correlation: we apply the alternating conditional expectation (ACE) algorithm---a powerful technique from non-parametric statistics---to approximately invert the componentwise non-linear functions. The second method is a Gaussianizing transformation, which is motivated by the fact that linearly mixed signals before nonlinear transformation are approximately Gaussian distributed. This heuristic, but simple and efficient procedure works as good as the ACE method. Using the framework provided by ACE, convergence can be proven. The optimal transformations obtained by ACE coincide with the sought-after inverse functions of the nonlinearities. After equalizing the nonlinearities, temporal decorrelation separation (TDSEP) allows us to recover the source signals. Numerical simulations testing\" ACE-TD\" and\" Gauss-TD\" on realistic examples are performed with excellent results.",
+    "Total citations": "Cited by 90\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Blind separation of post-nonlinear mixtures using linearizing transformations and temporal decorrelation\nA Ziehe, M Kawanabe, S Harmeling, KR M\u00c3\u017eller - Journal of Machine Learning Research, 2003\nCited by 90 Related articles All 32 versions"
+  }, {
+    "title": "Detection and attribution of large spatiotemporal extreme events in Earth observation data",
+    "Authors": "Jakob Zscheischler, Miguel D Mahecha, Stefan Harmeling, Markus Reichstein",
+    "Publication date": "2013/5/1",
+    "Journal": "Ecological Informatics",
+    "Volume": "15",
+    "Pages": "66-73",
+    "Publisher": "Elsevier",
+    "Description": "Latest climate projections suggest that both frequency and intensity of climate extremes will be substantially modified over the course of the coming decades. As a consequence, we need to understand to what extent and via which pathways climate extremes affect the state and functionality of terrestrial ecosystems and the associated biogeochemical cycles on a global scale. So far the impacts of climate extremes on the terrestrial biosphere were mainly investigated on the basis of case studies, while global assessments are widely lacking. In order to facilitate global analysis of this kind, we present a methodological framework that firstly detects spatiotemporally contiguous extremes in Earth observations, and secondly infers the likely pathway of the preceding climate anomaly. The approach does not require long time series, is computationally fast, and easily applicable to a variety of data sets with different spatial \u2026",
+    "Total citations": "Cited by 64\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Detection and attribution of large spatiotemporal extreme events in Earth observation data\nJ Zscheischler, MD Mahecha, S Harmeling\u2026 - Ecological Informatics, 2013\nCited by 64 Related articles All 10 versions"
+  }, {
+    "title": "Learning how to combine internal and external denoising methods",
+    "Authors": "Harold Christopher Burger, Christian Schuler, Stefan Harmeling",
+    "Publication date": "2013/9/3",
+    "Conference": "German Conference on Pattern Recognition",
+    "Pages": "121-130",
+    "Publisher": "Springer, Berlin, Heidelberg",
+    "Description": "Different methods for image denoising have complementary strengths and can be combined to improve image denoising performance, as has been noted by several authors [11,7]. Mosseri et al. [11] distinguish between internal and external methods depending whether they exploit internal or external statistics [13]. They also propose a rule-based scheme (PatchSNR) to combine these two classes of algorithms. In this paper, we test the underlying assumptions and show that many images might not be easily split into regions where internal methods or external methods are preferable. Instead we propose a learning based approach using a neural network, that automatically combines denoising results from an internal and from an external method. This approach outperforms both other combination methods and state-of-the-art stand-alone image denoising methods, hereby further closing the gap to the \u2026",
+    "Total citations": "Cited by 63\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Learning how to combine internal and external denoising methods\nHC Burger, C Schuler, S Harmeling - German Conference on Pattern Recognition, 2013\nCited by 63 Related articles All 9 versions"
+  }, {
+    "title": "Extreme events in gross primary production: a characterization across continents",
+    "Authors": "Jakob Zscheischler, Markus Reichstein, S Harmeling, A Rammig, Enrico Tomelleri, Miguel D Mahecha",
+    "Publication date": "2014",
+    "Journal": "Biogeosciences",
+    "Volume": "11",
+    "Issue": "11",
+    "Pages": "2909-2924",
+    "Publisher": "Copernicus GmbH on behalf of the European Geosciences Union",
+    "Description": "Climate extremes can affect the functioning of terrestrial ecosystems, for instance via a reduction of the photosynthetic capacity or alterations of respiratory processes. Yet the dominant regional and seasonal effects of hydrometeorological extremes are still 5 not well documented. Here we quantify and characterize the role of large spatiotemporal extreme events in gross primary production (GPP) as triggers of continental anomalies. We also investigate seasonal dynamics of extreme impacts on continental GPP anomalies. We find that the 50 largest positive (increase in uptake) and negative extremes (decrease in uptake) on each continent can explain most of the continental 10 variation in GPP, which is in line with previous results obtained at the global scale. We show that negative extremes are larger than positive ones and demonstrate that this asymmetry is particularly strong in South America and Europe. Most extremes in GPP start in early summer. Our analysis indicates that the overall impacts and the spatial extents of GPP extremes are power law distributed with exponents that vary 15 little across continents. Moreover, we show that on all continents and for all data sets the spatial extents play a more important role than durations or maximal GPP anomaly when it comes to the overall impact of GPP extremes. An analysis of possible causes implies that across continents most extremes in GPP can best be explained by water scarcity rather than by extreme temperatures. However, for Europe, South America 20 and Oceania we identify also fire as an important driver. Our findings are consistent with remote sensing products. An independent \u2026",
+    "Total citations": "Cited by 62\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Extreme events in gross primary production: a characterization across continents\nJ Zscheischler, M Reichstein, S Harmeling, A Rammig\u2026 - Biogeosciences, 2014\nCited by 62 Related articles All 22 versions"
+  }, {
+    "title": "Non-stationary correction of optical aberrations",
+    "Authors": "Christian J Schuler, Michael Hirsch, Stefan Harmeling, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2011/11/6",
+    "Conference": "2011 International Conference on Computer Vision",
+    "Pages": "659-666",
+    "Publisher": "IEEE",
+    "Description": "Taking a sharp photo at several megapixel resolution traditionally relies on high grade lenses. In this paper, we present an approach to alleviate image degradations caused by imperfect optics. We rely on a calibration step to encode the optical aberrations in a space-variant point spread function and obtain a corrected image by non-stationary deconvolution. By including the Bayer array in our image formation model, we can perform demosaicing as part of the deconvolution.",
+    "Total citations": "Cited by 57\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Non-stationary correction of optical aberrations\nCJ Schuler, M Hirsch, S Harmeling, B Sch\u00f6lkopf - 2011 International Conference on Computer Vision, 2011\nCited by 57 Related articles All 14 versions"
+  }, {
+    "title": "Painfree and accurate Bayesian estimation of psychometric functions for (potentially) overdispersed data",
+    "Authors": "Heiko H Sch\u00fctt, Stefan Harmeling, Jakob H Macke, Felix A Wichmann",
+    "Publication date": "2016/5/1",
+    "Journal": "Vision Research",
+    "Volume": "122",
+    "Pages": "105-123",
+    "Publisher": "Pergamon",
+    "Description": "The psychometric function describes how an experimental variable, such as stimulus strength, influences the behaviour of an observer. Estimation of psychometric functions from experimental data plays a central role in fields such as psychophysics, experimental psychology and in the behavioural neurosciences. Experimental data may exhibit substantial overdispersion, which may result from non-stationarity in the behaviour of observers. Here we extend the standard binomial model which is typically used for psychometric function estimation to a beta-binomial model. We show that the use of the beta-binomial model makes it possible to determine accurate credible intervals even in data which exhibit substantial overdispersion. This goes beyond classical measures for overdispersion\u2014goodness-of-fit\u2014which can detect overdispersion but provide no method to do correct inference for overdispersed data. We use \u2026",
+    "Total citations": "Cited by 49\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Painfree and accurate Bayesian estimation of psychometric functions for (potentially) overdispersed data\nHH Sch\u00fctt, S Harmeling, JH Macke, FA Wichmann - Vision Research, 2016\nCited by 49 Related articles All 12 versions"
+  }, {
+    "title": "Gravitational lensing accuracy testing 2010 (great10) challenge handbook",
+    "Authors": "Thomas Kitching, Adam Amara, Mandeep Gill, Stefan Harmeling, Catherine Heymans, Richard Massey, Barnaby Rowe, Tim Schrabback, Lisa Voigt, Sreekumar Balan, Gary Bernstein, Matthias Bethge, Sarah Bridle, Frederic Courbin, Marc Gentile, Alan Heavens, Michael Hirsch, Reshad Hosseini, Alina Kiessling, Donnacha Kirk, Konrad Kuijken, Rachel Mandelbaum, Baback Moghaddam, Guldariya Nurbaeva, Stephane Paulin-Henriksson, Anais Rassat, Jason Rhodes, Bernhard Sch\u00f6lkopf, John Shawe-Taylor, Marina Shmakova, Andy Taylor, Malin Velander, Ludovic van Waerbeke, Dugan Witherick, David Wittman",
+    "Publication date": "2011/9/1",
+    "Journal": "The Annals of Applied Statistics",
+    "Pages": "2231-2263",
+    "Publisher": "Institute of Mathematical Statistics",
+    "Description": "GRavitational lEnsing Accuracy Testing 2010 (GREAT10) is a public image analysis challenge aimed at the development of algorithms to analyze astronomical images. Specifically, the challenge is to measure varying image distortions in the presence of a variable convolution kernel, pixelization and noise. This is the second in a series of challenges set to the astronomy, computer science and statistics communities, providing a structured environment in which methods can be improved and tested in preparation for planned astronomical surveys. GREAT10 extends upon previous work by introducing variable fields into the challenge. The \"Galaxy Challenge\" involves the precise measurement of galaxy shape distortions, quantified locally by two parameters called shear, in the presence of a known convolution kernel. Crucially, the convolution kernel and the simulated gravitational lensing shape distortion both now \u2026",
+    "Total citations": "Cited by 49\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Gravitational lensing accuracy testing 2010 (great10) challenge handbook\nT Kitching, A Amara, M Gill, S Harmeling, C Heymans\u2026 - The Annals of Applied Statistics, 2011\nCited by 49 Related articles All 18 versions"
+  }, {
+    "title": "Multiframe blind deconvolution, super-resolution, and saturation correction via incremental EM",
+    "Authors": "Stefan Harmeling, Suvrit Sra, Michael Hirsch, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2010/9/26",
+    "Conference": "2010 IEEE International Conference on Image Processing",
+    "Pages": "3313-3316",
+    "Publisher": "IEEE",
+    "Description": "We formulate the multiframe blind deconvolution problem in an incremental expectation maximization (EM) framework. Beyond deconvolution, we show how to use the same framework to address: (i) super-resolution despite noise and unknown blurring; (ii) saturation-correction of overexposed pixels that confound image restoration. The abundance of data allows us to address both of these without using explicit image or blur priors. The end result is a simple but effective algorithm with no hyperparameters. We apply this algorithm to real-world images from astronomy and to super resolution tasks: for both, our algorithm yields increased resolution and deconvolved images simultaneously.",
+    "Total citations": "Cited by 43\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Multiframe blind deconvolution, super-resolution, and saturation correction via incremental EM\nS Harmeling, S Sra, M Hirsch, B Sch\u00f6lkopf - 2010 IEEE International Conference on Image \u2026, 2010\nCited by 43 Related articles All 9 versions"
+  }, {
+    "title": "Online blind deconvolution for astronomical imaging",
+    "Authors": "Stefan Harmeling, Michael Hirsch, Suvrit Sra, Berhard Sch\u00f6lkopf",
+    "Publication date": "2009/4/16",
+    "Conference": "2009 IEEE International Conference on Computational Photography (ICCP)",
+    "Pages": "1-7",
+    "Publisher": "IEEE",
+    "Description": "Atmospheric turbulences blur astronomical images taken by earth-based telescopes. Taking many short-time exposures in such a situation provides noisy images of the same object, where each noisy image has a different blur. Commonly astronomers apply a technique called \u201cLucky Imaging\u201d that selects a few of the recorded frames that fulfill certain criteria, such as reaching a certain peak intensity (\u201cStrehl ratio\u201d). The selected frames are then averaged to obtain a better image. In this paper we introduce and analyze a new method that exploits all the frames and generates an improved image in an online fashion. Our initial experiments with controlled artificial data and real-world astronomical datasets yields promising results.",
+    "Total citations": "Cited by 43\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Online blind deconvolution for astronomical imaging\nS Harmeling, M Hirsch, S Sra, B Sch\u00f6lkopf - 2009 IEEE International Conference on Computational \u2026, 2009\nCited by 43 Related articles All 9 versions"
+  }, {
+    "title": "Image denoising with multi-layer perceptrons, part 1: comparison with existing algorithms and with bounds",
+    "Authors": "Harold Christopher Burger, Christian J Schuler, Stefan Harmeling",
+    "Publication date": "2012/11/7",
+    "Journal": "arXiv preprint arXiv:1211.1544",
+    "Description": "Image denoising can be described as the problem of mapping from a noisy image to a noise-free image. The best currently available denoising methods approximate this mapping with cleverly engineered algorithms. In this work we attempt to learn this mapping directly with plain multi layer perceptrons (MLP) applied to image patches. We will show that by training on large image databases we are able to outperform the current state-of-the-art image denoising methods. In addition, our method achieves results that are superior to one type of theoretical bound and goes a large way toward closing the gap with a second type of theoretical bound. Our approach is easily adapted to less extensively studied types of noise, such as mixed Poisson-Gaussian noise, JPEG artifacts, salt-and-pepper noise and noise resembling stripes, for which we achieve excellent results as well. We will show that combining a block-matching procedure with MLPs can further improve the results on certain images. In a second paper, we detail the training trade-offs and the inner mechanisms of our MLPs.\nSubjects: Computer Vision and Pattern Recognition (cs. CV); Machine Learning (cs. LG)\nCite as: arXiv: 1211.1544 [cs. CV]\n(or arXiv: 1211.1544 v3 [cs. CV] for this version)\nSubmission history\nFrom: Harold Christopher Burger Harold Christopher Burger [view email]\n[v1] Wed, 7 Nov 2012 13: 35: 52 UTC (3,603 KB)\n[v2] Thu, 8 Nov 2012 09: 23: 10 UTC (3,574 KB)\n[v3] Fri, 9 Nov 2012 10: 36: 22 UTC (3,574 KB)",
+    "Total citations": "Cited by 42\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Image denoising with multi-layer perceptrons, part 1: comparison with existing algorithms and with bounds\nHC Burger, CJ Schuler, S Harmeling - arXiv preprint arXiv:1211.1544, 2012\nCited by 42 Related articles All 7 versions"
+  }, {
+    "title": "Nonlinear blind source separation using kernel feature spaces",
+    "Authors": "Stefan Harmeling, Andreas Ziehe, Motoaki Kawanabe, Benjamin Blankertz, Klaus-Robert M\u00fcller",
+    "Publication date": "2001/12",
+    "Journal": "Proc. Int. Worksh. Independent Component Analysis and Blind Signal Separation",
+    "Description": "In this work we propose a kernel-based blind source separation (BSS) algorithm that can perform nonlinear BSS for general invertible nonlinearities. For our kTDSEP algorithm we have to go through four steps:(i) adapting to the intrinsic dimension of the data mapped to feature space F,(ii) finding an orthonormal basis of this submanifold,(iii) mapping the data into the subspace of F spanned by this orthonormal basis, and (iv) applying temporal decorrelation BSS (TDSEP) to the mapped data. After demixing we get a number of irrelevant components and the original sources. To find out which ones are the components of interest, we propose a criterion that allows to identify the original sources. The excellent performance of kTDSEP is demonstrated in experiments on nonlinearly mixed speech data.",
+    "Total citations": "Cited by 41\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Nonlinear blind source separation using kernel feature spaces\nS Harmeling, A Ziehe, M Kawanabe, B Blankertz\u2026 - Proc. Int. Worksh. Independent Component Analysis \u2026, 2001\nCited by 41 Related articles All 17 versions"
+  }, {
+    "title": "Mask-specific inpainting with deep neural networks",
+    "Authors": "Rolf K\u00f6hler, Christian Schuler, Bernhard Sch\u00f6lkopf, Stefan Harmeling",
+    "Publication date": "2014/9/2",
+    "Conference": "German Conference on Pattern Recognition",
+    "Pages": "523-534",
+    "Publisher": "Springer, Cham",
+    "Description": "Most inpainting approaches require a good image model to infer the unknown pixels. In this work, we directly learn a mapping from image patches, corrupted by missing pixels, onto complete image patches. This mapping is represented as a deep neural network that is automatically trained on a large image data set. In particular, we are interested in the question whether it is helpful to exploit the shape information of the missing regions, i.e. the masks, which is something commonly ignored by other approaches. In comprehensive experiments on various images, we demonstrate that our learning-based approach is able to use this extra information and can achieve state-of-the-art inpainting results. Furthermore, we show that training with such extra information is useful for blind inpainting, where the exact shape of the missing region might be uncertain, for instance due to aliasing effects.",
+    "Total citations": "Cited by 39\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Mask-specific inpainting with deep neural networks\nR K\u00f6hler, C Schuler, B Sch\u00f6lkopf, S Harmeling - German Conference on Pattern Recognition, 2014\nCited by 39 Related articles All 4 versions"
+  }, {
+    "title": "Greedy learning of binary latent trees",
+    "Authors": "Stefan Harmeling, Christopher KI Williams",
+    "Publication date": "2010/8/19",
+    "Journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "Volume": "33",
+    "Issue": "6",
+    "Pages": "1087-1097",
+    "Publisher": "IEEE",
+    "Description": "Inferring latent structures from observations helps to model and possibly also understand underlying data generating processes. A rich class of latent structures is the latent trees, i.e., tree-structured distributions involving latent variables where the visible variables are leaves. These are also called hierarchical latent class (HLC) models. Zhang and Ko\u010dka [CHECK END OF SENTENCE] proposed a search algorithm for learning such models in the spirit of Bayesian network structure learning. While such an approach can find good solutions, it can be computationally expensive. As an alternative, we investigate two greedy procedures: The BIN-G algorithm determines both the structure of the tree and the cardinality of the latent variables in a bottom-up fashion. The BIN-A algorithm first determines the tree structure using agglomerative hierarchical clustering, and then determines the cardinality of the latent variables as \u2026",
+    "Total citations": "Cited by 39\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Greedy learning of binary latent trees\nS Harmeling, CKI Williams - IEEE Transactions on Pattern Analysis and Machine \u2026, 2010\nCited by 39 Related articles All 16 versions"
+  }, {
+    "title": "Kernel feature spaces and nonlinear blind souce separation",
+    "Authors": "Stefan Harmeling, Andreas Ziehe, Motoaki Kawanabe, Klaus-Robert M\u00fcller",
+    "Publication date": "2002",
+    "Conference": "Advances in neural information processing systems",
+    "Pages": "761-768",
+    "Description": "In kernel based learning the data is mapped to a kernel feature space of a dimension that corresponds to the number of training data points. In practice, however, the data forms a smaller submanifold in feature space, a fact that has been used eg by reduced set techniques for SVMs. We propose a new mathematical construction that permits to adapt to the intrinsic dimension and to find an orthonormal basis of this submanifold. In doing so, computations get much simpler and more important our theoretical framework allows to derive elegant kernelized blind source separation (BSS) algorithms for arbitrary invertible nonlinear mixings. Experiments demonstrate the good performance and high computational efficiency of our kTDSEP algorithm for the problem of nonlinear BSS.",
+    "Total citations": "Cited by 36\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Kernel feature spaces and nonlinear blind souce separation\nS Harmeling, A Ziehe, M Kawanabe, KR M\u00fcller - Advances in neural information processing systems, 2002\nCited by 36 Related articles All 19 versions"
+  }, {
+    "title": "Separation of post-nonlinear mixtures using ACE and temporal decorrelation",
+    "Authors": "Andreas Ziehe, Motoaki Kawanabe, Stefan Harmeling, Klaus-Robert M\u00fcller",
+    "Publication date": "2001/12",
+    "Journal": "Proc. Int. Workshop on Independent Component Analysis and Blind Signal Separation (ICA2001)",
+    "Pages": "433-438",
+    "Description": "We propose an efficient method based on the concept of maximal correlation that reduces the post-nonlinear blind source separation problem (PNL BSS) to a linear BSS problem. For this we apply the Alternating Conditional Expectation (ACE) algorithm\u2013a powerful technique from nonparametric statistics\u2013to approximately invert the (post-) nonlinear functions. Interestingly, in the framework of the ACE method convergence can be proven and in the PNL BSS scenario the optimal transformation found by ACE will coincide with the desired inverse functions. After the nonlinearities have been removed by ACE, temporal decorrelation (TD) allows us to recover the source signals. An excellent performance underlines the validity of our approach and demonstrates the ACE-TD method on realistic examples.",
+    "Total citations": "Cited by 36\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "Separation of post-nonlinear mixtures using ACE and temporal decorrelation\nA Ziehe, M Kawanabe, S Harmeling, KR M\u00fcller - Proc. Int. Workshop on Independent Component \u2026, 2001\nCited by 36 Related articles All 19 versions"
+  }, {
+    "title": "Climate classifications: the value of unsupervised clustering",
+    "Authors": "Jakob Zscheischler, Miguel D Mahecha, Stefan Harmeling",
+    "Publication date": "2012/1/1",
+    "Journal": "Procedia Computer Science",
+    "Volume": "9",
+    "Pages": "897-906",
+    "Publisher": "Elsevier",
+    "Description": "Classifying the land surface according to different climate zones is often a prerequisite for global diagnostic or predictive modelling studies. Classical classi\ufb01cations such as the prominent K\u0308oppen\u2013Geiger (KG) approach rely on heuristic decision rules. Although these heuristics may transport some process understanding, such a discretization may appear \u201carbitrary\u201d from a data oriented perspective. In this contribution we compare the precision of a KG classi\ufb01cation to an unsupervised classi\ufb01cation (k-means clustering). Generally speaking, we revisit the problem of \u201cclimate classi\ufb01cation\u201d by investigating the inherent patterns in multiple data streams in a purely data driven way. One question is whether we can reproduce the KG boundaries by exploring different combinations of climate and remotely sensed vegetation variables. In this context we also investigate whether climate and vegetation variables build similar \u2026",
+    "Total citations": "Cited by 35\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Climate classifications: the value of unsupervised clustering\nJ Zscheischler, MD Mahecha, S Harmeling - Procedia Computer Science, 2012\nCited by 35 Related articles All 12 versions"
+  }, {
+    "title": "Online multi-frame blind deconvolution with super-resolution and saturation correction",
+    "Authors": "Michael Hirsch, S Harmeling, S Sra, B Sch\u00f6lkopf",
+    "Publication date": "2011/7/1",
+    "Journal": "Astronomy & Astrophysics",
+    "Volume": "531",
+    "Pages": "A9",
+    "Publisher": "EDP Sciences",
+    "Description": "Astronomical images taken by ground-based telescopes suffer degradation due to atmospheric turbulence. This degradation can be tackled by costly hardware-based approaches such as adaptive optics, or by sophisticated software-based methods such as lucky imaging, speckle imaging, or multi-frame deconvolution. Software-based methods process a sequence of images to reconstruct a deblurred high-quality image. However, existing approaches are limited in one or several aspects: (i) they process all images in batch mode, which for thousands of images is prohibitive; (ii) they do not reconstruct a super-resolved image, even though an image sequence often contains enough information; (iii) they are unable to deal with saturated pixels; and (iv) they are usually non-blind, i.e., they assume the blur kernels to be known. In this paper we present a new method for multi-frame deconvolution called online blind \u2026",
+    "Total citations": "Cited by 34\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Online multi-frame blind deconvolution with super-resolution and saturation correction\nM Hirsch, S Harmeling, S Sra, B Sch\u00f6lkopf - Astronomy & Astrophysics, 2011\nCited by 34 Related articles All 7 versions"
+  }, {
+    "title": "Inferring textual entailment with a probabilistically sound calculus",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "2009/10",
+    "Journal": "Natural Language Engineering",
+    "Volume": "15",
+    "Issue": "4",
+    "Pages": "459-477",
+    "Publisher": "Cambridge University Press",
+    "Description": "We introduce a system for textual entailment that is based on a probabilistic model of entailment. The model is defined using a calculus of transformations on dependency trees, which is characterized by the fact that derivations in that calculus preserve the truth only with a certain probability. The calculus is successfully evaluated on the datasets of the PASCAL Challenge on Recognizing Textual Entailment.",
+    "Total citations": "Cited by 31\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "Inferring textual entailment with a probabilistically sound calculus\nS Harmeling - Natural Language Engineering, 2009\nCited by 31 Related articles All 10 versions"
+  }, {
+    "title": "Blind correction of optical aberrations",
+    "Authors": "Christian J Schuler, Michael Hirsch, Stefan Harmeling, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2012/10/7",
+    "Conference": "European Conference on Computer Vision",
+    "Pages": "187-200",
+    "Publisher": "Springer, Berlin, Heidelberg",
+    "Description": "Camera lenses are a critical component of optical imaging systems, and lens imperfections compromise image quality. While traditionally, sophisticated lens design and quality control aim at limiting optical aberrations, recent works [1,2,3] promote the correction of optical flaws by computational means. These approaches rely on elaborate measurement procedures to characterize an optical system, and perform image correction by non-blind deconvolution.\nIn this paper, we present a method that utilizes physically plausible assumptions to estimate non-stationary lens aberrations blindly, and thus can correct images without knowledge of specifics of camera and lens. The blur estimation features a novel preconditioning step that enables fast deconvolution. We obtain results that are competitive with state-of-the-art non-blind approaches.",
+    "Total citations": "Cited by 29\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Blind correction of optical aberrations\nCJ Schuler, M Hirsch, S Harmeling, B Sch\u00f6lkopf - European Conference on Computer Vision, 2012\nCited by 29 Related articles All 12 versions"
+  }, {
+    "title": "Attribute-based classification for zero-shot learning of object categories",
+    "Authors": "Christoph H Lampert, Hannes Nickisch, Stefan Harmeling",
+    "Publication date": "2013/7/30",
+    "Journal": "IEEE Transactions on Pattern Analysis & Machine Intelligence",
+    "Issue": "1",
+    "Pages": "1",
+    "Publisher": "IEEE",
+    "Description": "We study the problem of object recognition for categories for which we have no training examples, a task also called zero-data or zero-shot learning. This situation has hardly been studied in computer vision research, even though it occurs frequently: the world contains tens of thousands of different object classes and for only few of them image collections have been formed and suitably annotated. To tackle the problem we introduce attribute-based classification: objects are identified based on a high-level description that is phrased in terms of semantic attributes, such as the object's color or shape. Because the identification of each such property transcends the specific learning task at hand, the attribute classifiers can be pre-learned independently, eg from existing image datasets unrelated to the current task. Afterwards, new classes can be detected based on their attribute representation, without the need for a new \u2026",
+    "Total citations": "Cited by 27\n2013\n2014\n2015\n2016\n2017\n2018",
+    "Scholar articles": "Attribute-based classification for zero-shot learning of object categories\nCH Lampert, H Nickisch, S Harmeling - IEEE Transactions on Pattern Analysis & Machine \u2026, 2013\nCited by 27 Related articles"
+  }, {
+    "title": "An extensible probabilistic transformation-based approach to the third recognizing textual entailment challenge",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "2007/6/28",
+    "Conference": "Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing",
+    "Pages": "137-142",
+    "Publisher": "Association for Computational Linguistics",
+    "Description": "We introduce a system for textual entailment that is based on a probabilistic model of entailment. The model is defined using some calculus of transformations on dependency trees, which is characterized by the fact that derivations in that calculus preserve the truth only with a certain probability. We also describe a possible set of transformations (and with it implicitly a calculus) that was successfully applied to the RTE3 challenge data. However, our system can be improved in many ways and we see it as the starting point for a promising new approach to textual entailment.",
+    "Total citations": "Cited by 26\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "An extensible probabilistic transformation-based approach to the third recognizing textual entailment challenge\nS Harmeling - Proceedings of the ACL-PASCAL Workshop on Textual \u2026, 2007\nCited by 26 Related articles All 16 versions"
+  }, {
+    "title": "Computing functions of random variables via reproducing kernel Hilbert space representations",
+    "Authors": "Bernhard Sch\u00f6lkopf, Krikamol Muandet, Kenji Fukumizu, Stefan Harmeling, Jonas Peters",
+    "Publication date": "2015/7/1",
+    "Journal": "Statistics and Computing",
+    "Volume": "25",
+    "Issue": "4",
+    "Pages": "755-766",
+    "Publisher": "Springer US",
+    "Description": "We describe a method to perform functional operations on probability distributions of random variables. The method uses reproducing kernel Hilbert space representations of probability distributions, and it is applicable to all operations which can be applied to points drawn from the respective distributions. We refer to our approach as kernel probabilistic programming. We illustrate it on synthetic data and show how it can be used for nonparametric structural equation models, with an application to causal inference.",
+    "Total citations": "Cited by 22\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Computing functions of random variables via reproducing kernel Hilbert space representations\nB Sch\u00f6lkopf, K Muandet, K Fukumizu, S Harmeling\u2026 - Statistics and Computing, 2015\nCited by 22 Related articles All 13 versions"
+  }, {
+    "title": "Expectation-Maximization methods for solving (PO) MDPs and optimal control problems",
+    "Authors": "Marc Toussaint, Amos Storkey, Stefan Harmeling",
+    "Publication date": "2011",
+    "Book": "Bayesian Time Series Models",
+    "Publisher": "Cambridge University Press",
+    "Description": "As this book demonstrates, the development of efficient probabilistic inference techniques has made considerable progress in recent years, in particular with respect to exploiting the structure (eg, factored, hierarchical or relational) of discrete and continuous problem domains. In this chapter we show that these techniques can be used also for solving Markov Decision Processes (MDPs) or partial observable MDPs (POMDPs) when formulated in terms of a structured dynamic Bayesian network (DBN).\nThe problems of planning in stochastic environments and inference in state space models are closely related, in particular in view of the challenges both of them face: scaling to large state spaces spanned by multiple state variables, or realizing planning (or inference) in continuous or mixed continuous-discrete state spaces. Both fields developed techniques to address these problems. For instance, in the field of planning, they include work on Factored Markov Decision Processes (Boutilier et al., 1995; Koller and Parr, 1999; Guestrin et al., 2003; Kveton and Hauskrecht, 2005), abstractions (Hauskrecht et al., 1998), and relational models of the environment (Zettlemoyer et al., 2005). On the other hand, recent advances in inference techniques show how structure can be exploited both for exact inference as well as making efficient approximations. Examples are message passing algorithms (loopy Belief Propagation, Expectation Propagation), variational approaches, approximate belief representations (particles, Assumed Density Filtering, Boyen-Koller) and arithmetic compilation (see, eg, Minka, 2001; Murphy, 2002; Chavira et al., 2006). In view of \u2026",
+    "Total citations": "Cited by 22\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Expectation-Maximization methods for solving (PO) MDPs and optimal control problems\nM Toussaint, A Storkey, S Harmeling - Inference and Learning in Dynamic Models, 2010\nCited by 22 Related articles All 10 versions"
+  }, {
+    "title": "Injecting noise for analysing the stability of ICA components",
+    "Authors": "Stefan Harmeling, Frank Meinecke, Klaus-Robert M\u00fcller",
+    "Publication date": "2004/2/1",
+    "Journal": "Signal Processing",
+    "Volume": "84",
+    "Issue": "2",
+    "Pages": "255-266",
+    "Publisher": "Elsevier",
+    "Description": "Usually, noise is considered to be destructive. We present a new method that constructively injects noise to assess the reliability and the grouping structure of empirical ICA component estimates. Our method can be viewed as a Monte-Carlo-style approximation of the curvature of some performance measure at the solution. Simulations show that the true root-mean-squared angle distances between the real sources and the source estimates can be approximated well by our method. In a toy experiment, we see that we are also able to reveal the underlying grouping structure of the extracted ICA components. Furthermore, an experiment with fetal ECG data demonstrates that our approach is useful for exploratory data analysis of real-world data.",
+    "Total citations": "Cited by 20\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "Injecting noise for analysing the stability of ICA components\nS Harmeling, F Meinecke, KR M\u00fcller - Signal Processing, 2004\nCited by 20 Related articles All 8 versions"
+  }, {
+    "title": "Image denoising with multi-layer perceptrons, part 2: training trade-offs and analysis of their mechanisms",
+    "Authors": "Harold Christopher Burger, Christian J Schuler, Stefan Harmeling",
+    "Publication date": "2012/11/7",
+    "Journal": "arXiv preprint arXiv:1211.1552",
+    "Description": "Image denoising can be described as the problem of mapping from a noisy image to a noise-free image. In another paper, we show that multi-layer perceptrons can achieve outstanding image denoising performance for various types of noise (additive white Gaussian noise, mixed Poisson-Gaussian noise, JPEG artifacts, salt-and-pepper noise and noise resembling stripes). In this work we discuss in detail which trade-offs have to be considered during the training procedure. We will show how to achieve good results and which pitfalls to avoid. By analysing the activation patterns of the hidden units we are able to make observations regarding the functioning principle of multi-layer perceptrons trained for image denoising.\nSubjects: Computer Vision and Pattern Recognition (cs. CV); Machine Learning (cs. LG)\nCite as: arXiv: 1211.1552 [cs. CV]\n(or arXiv: 1211.1552 v1 [cs. CV] for this version)\nSubmission history\nFrom: Harold Christopher Burger Harold Christopher Burger [view email]\n[v1] Wed, 7 Nov 2012 13: 50: 19 UTC (3,038 KB)",
+    "Total citations": "Cited by 18\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Image denoising with multi-layer perceptrons, part 2: training trade-offs and analysis of their mechanisms\nHC Burger, CJ Schuler, S Harmeling - arXiv preprint arXiv:1211.1552, 2012\nCited by 18 Related articles All 7 versions"
+  }, {
+    "title": "Analysing ICA components by injecting noise",
+    "Authors": "Stefan Harmeling, Frank Meinecke, Klaus-Robert M\u00fcller",
+    "Publication date": "2003/4/1",
+    "Journal": "Proceedings of the 4th International Symposium on Independent Component Analysis and Blind Signal Separation (ICA 2003). Nara, Japan",
+    "Pages": "149-154",
+    "Description": "Usually, noise is considered to be destructive. We present a new method that constructively injects noise to assess the reliability and the group structure of empirical ICA components. Simulations show that the true root-mean squared angle distances between the real sources and some source estimates can be approximated by our method. In a toy experiment, we see that we are also able to reveal the underlying group structure of extracted ICA components. Furthermore, an experiment with fetal ECG data demonstrates that our approach is useful for exploratory data analysis of real-world data.",
+    "Total citations": "Cited by 18\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013",
+    "Scholar articles": "Analysing ICA components by injecting noise\nS Harmeling, F Meinecke, KR M\u00fcller - Proceedings of the 4th International Symposium on \u2026, 2003\nCited by 18 Related articles All 12 versions"
+  }, {
+    "title": "Robust ICA for super-gaussian sources",
+    "Authors": "Frank C Meinecke, Stefan Harmeling, Klaus-Robert M\u00fcller",
+    "Publication date": "2004/9/22",
+    "Conference": "International Conference on Independent Component Analysis and Signal Separation",
+    "Pages": "217-224",
+    "Publisher": "Springer, Berlin, Heidelberg",
+    "Description": "Most ICA algorithms are sensitive to outliers. Instead of robustifying existing algorithms by outlier rejection techniques, we show how a simple outlier index can be used directly to solve the ICA problem for super-Gaussian source signals. This ICA method is outlier-robust by construction and can be used for standard ICA as well as for over-complete ICA (i.e. more source signals than observed signals (mixtures)).",
+    "Total citations": "Cited by 17\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016",
+    "Scholar articles": "Robust ICA for super-gaussian sources\nFC Meinecke, S Harmeling, KR M\u00fcller - \u2026 Conference on Independent Component Analysis and \u2026, 2004\nCited by 17 Related articles All 17 versions"
+  }, {
+    "title": "Removing noise from astronomical images using a pixel-specific noise model",
+    "Authors": "Harold Christopher Burger, Bernhard Sch\u00f6lkopf, Stefan Harmeling",
+    "Publication date": "2011/4/8",
+    "Conference": "2011 IEEE International Conference on Computational Photography (ICCP)",
+    "Pages": "1-8",
+    "Publisher": "IEEE",
+    "Description": "For digital photographs of astronomical objects, where exposure times are usually long and ISO settings high, the so-called dark-current is a significant source of noise. Dark-current refers to thermally generated electrons and is therefore present even in the absence of light. This paper presents a novel approach for denoising astronomical images that have been corrupted by dark-current noise. Our method relies on a probabilistic description of the dark-current of each pixel of a given camera. The noise model is then combined with an image prior which is adapted to astronomical images. In a laboratory environment, we use a black and white CCD camera containing a cooling unit and show that our method is superior to existing methods in terms of root mean squared error. Furthermore, we show that our method is practically relevant by providing visually more appealing results on astronomical photographs taken \u2026",
+    "Total citations": "Cited by 15\n2012\n2013\n2014\n2015\n2016\n2017\n2018",
+    "Scholar articles": "Removing noise from astronomical images using a pixel-specific noise model\nHC Burger, B Sch\u00f6lkopf, S Harmeling - 2011 IEEE International Conference on Computational \u2026, 2011\nCited by 15 Related articles All 7 versions"
+  }, {
+    "title": "Exploring model selection techniques for nonlinear dimensionality reduction",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "2007/3",
+    "Journal": "School of Informatics Research Report EDI-INF-RR-0960, University of Edinburgh",
+    "Description": "Nonlinear dimensionality reduction (NLDR) methods have become useful tools for practitioners who are faced with the analysis of high-dimensional data. Of course, not all NLDR methods are equally applicable to a particular dataset at hand. Thus it would be useful to come up with model selection criteria that help to choose among different NLDR algorithms. This paper explores various approaches to this problem and evaluates them on controlled data sets. Comprehensive experiments will show that model selection scores based on stability are not useful, while scores based on Gaussian processes are helpful for the NLDR problem.",
+    "Total citations": "Cited by 15\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016",
+    "Scholar articles": "Exploring model selection techniques for nonlinear dimensionality reduction\nS Harmeling - School of Informatics Research Report EDI-INF-RR \u2026, 2007\nCited by 15 Related articles All 7 versions"
+  }, {
+    "title": "Improving denoising algorithms via a multi-scale meta-procedure",
+    "Authors": "Harold Burger, Stefan Harmeling",
+    "Publication date": "2011",
+    "Conference": "DAGM",
+    "Pages": "206-215",
+    "Publisher": "Springer Berlin/Heidelberg",
+    "Description": "Many state-of-the-art denoising algorithms focus on recovering high-frequency details in noisy images. However, images corrupted by large amounts of noise are also degraded in the lower frequencies. Thus properly handling all frequency bands allows us to better denoise in such regimes. To improve existing denoising algorithms we propose a meta-procedure that applies existing denoising algorithms across different scales and combines the resulting images into a single denoised image. With a comprehensive evaluation we show that the performance of many state-of-the-art denoising algorithms can be improved.",
+    "Total citations": "Cited by 14\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "Improving denoising algorithms via a multi-scale meta-procedure\nHC Burger, S Harmeling - Joint Pattern Recognition Symposium, 2011\nCited by 14 Related articles All 15 versions\nAnaesthesia, Pharmacology, Intensive Care and Emergency APICE: Proceedings of the 23rd Annual Meeting-International Symposium on Critical Care Medicine*\nA Gullo - 2012\nAll 4 versions"
+  }, {
+    "title": "Inlier\u2010based ICA with an application to superimposed images",
+    "Authors": "Frank C Meinecke, Stefan Harmeling, Klaus\u2010Robert M\u00fcller",
+    "Publication date": "2005",
+    "Journal": "International Journal of Imaging Systems and Technology",
+    "Volume": "15",
+    "Issue": "1",
+    "Pages": "48-55",
+    "Publisher": "Wiley Subscription Services, Inc., A Wiley Company",
+    "Description": "This paper proposes a new independent component analysis (ICA) method which is able to unmix overcomplete mixtures of sparce or structured signals like speech, music or images. Furthermore, the method is designed to be robust against outliers, which is a favorable feature for ICA algorithms since most of them are extremely sensitive to outliers. Our approach is based on a simple outlier index. However, instead of robustifying an existing algorithm by some outlier rejection technique we show how this index can be used directly to solve the ICA problem for super\u2010Gaussian sources. The resulting inlier\u2010based ICA (IBICA) is outlier\u2010robust by construction and can be used for standard ICA as well as for overcomplete ICA (i.e. more source signals than observed signals). \u00a9 2005 Wiley Periodicals, Inc. Int J Imaging Syst Technol, 15, 48\u201355, 2005; Published online in Wiley InterScience (www.interscience.wiley.com \u2026",
+    "Total citations": "Cited by 14\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016",
+    "Scholar articles": "Inlier\u2010based ICA with an application to superimposed images\nFC Meinecke, S Harmeling, KR M\u00fcller - International Journal of Imaging Systems and \u2026, 2005\nCited by 14 Related articles All 6 versions"
+  }, {
+    "title": "Using kernel PCA for initialisation of variational Bayesian nonlinear blind source separation method",
+    "Authors": "Antti Honkela, Stefan Harmeling, Leo Lundqvist, Harri Valpola",
+    "Publication date": "2004/9/22",
+    "Conference": "International Conference on Independent Component Analysis and Signal Separation",
+    "Pages": "790-797",
+    "Publisher": "Springer, Berlin, Heidelberg",
+    "Description": "The variational Bayesian nonlinear blind source separation method introduced by Lappalainen and Honkela in 2000 is initialised with linear principal component analysis (PCA). Because of the multilayer perceptron (MLP) network used to model the nonlinearity, the method is susceptible to local minima and therefore sensitive to the initialisation used. As the method is used for nonlinear separation, the linear initialisation may in some cases lead it astray. In this paper we study the use of kernel PCA (KPCA) in the initialisation. KPCA is a rather straightforward generalisation of linear PCA and it is much faster to compute than the variational Bayesian method. The experiments show that it can produce significantly better initialisations than linear PCA. Additionally, the model comparison methods provided by the variational Bayesian framework can be easily applied to compare different kernels.",
+    "Total citations": "Cited by 13\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015",
+    "Scholar articles": "Using kernel PCA for initialisation of variational Bayesian nonlinear blind source separation method\nA Honkela, S Harmeling, L Lundqvist, H Valpola - \u2026 Conference on Independent Component Analysis and \u2026, 2004\nCited by 13 Related articles All 19 versions"
+  }, {
+    "title": "Method and device for recovering a digital image from a sequence of observed digital images",
+    "Inventors": "Stefan Harmeling, Michael Hirsch, Suvrit Sra, Bernhard Sch\u00f6lkopf, Christian J Schuler",
+    "Publication date": "2013/9/19",
+    "Patent office": "US",
+    "Application number": "13825365",
+    "Description": "A computer-implemented method for recovering a digital image (x) from a sequence of observed digital images (y 1,..., y T), includes: obtaining an observed digital image (y t); estimating a point spread function (f t) based on the observed image (y t); estimating the recovered digital image (x), based on the estimated point spread function (f t) and the observed image (y t); and repeating the above steps. In order to correct optical aberrations of a lens, a point spread function of the lens may be used.",
+    "Total citations": "Cited by 12\n2014\n2015\n2016\n2017\n2018",
+    "Scholar articles": "Method and device for recovering a digital image from a sequence of observed digital images\nS Harmeling, M Hirsch, S Sra, B Sch\u00f6lkopf, CJ Schuler - US Patent App. 13/825,365, 2013\nCited by 12 Related articles All 3 versions"
+  }, {
+    "title": "Independent component analysis and beyond",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "2004/10",
+    "Institution": "Verlag nicht ermittelbar",
+    "Description": "Independent component analysis (ICA) is a tool for statistical data analysis and signal processing that is able to decompose multivariate signals into their underlying source components. Although the classical ICA model is highly useful, there are many realworld applications that require powerful extensions of ICA. This thesis presents new methods that extend the functionality of ICA.\nReliability and grouping of independent components with noise injection. Usually noise is considered to be destructive. We present a new method that constructively injects noise to assess the reliability and the grouping structure of empirical independent component estimates. We generalize hereby earlier work on reliability assessment based on bootstrap to arbitrary ICA algorithms. Our method can be viewed as a Monte-Carlo-style approximation of the curvature of some performance measure at the solution. Simulations using artificial and real-world data validate our approach.",
+    "Total citations": "Cited by 12\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016",
+    "Scholar articles": "Independent component analysis and beyond\nS Harmeling - 2004\nCited by 12 Related articles All 4 versions"
+  }, {
+    "title": "Psignifit 4: Pain-free Bayesian inference for psychometric functions",
+    "Authors": "Heiko Sch\u00fctt, Stefan Harmeling, Jakob Macke, Felix Wichmann",
+    "Publication date": "2015/9",
+    "Conference": "15th Annual Meeting of the Vision Sciences Society (VSS 2015)",
+    "Pages": "474-474",
+    "Description": "Psychometric functions are frequently used in vision science to model task performance. These sigmoid functions can be fit to data using likelihood maximization, but this ignores the reliability or variance of the point estimates. In contrast Bayesian methods automatically calculate this reliability. However, using Bayesian methods in practice usually requires expert knowledge, user interaction and computation time. Also most methods---including Bayesian ones---are vulnerable to non-stationary observers (whose performance is not constant). For such observers all methods, which assume a stationary binomial observer are overconfident in the estimates. We present Psignifit 4, a new method for fitting psychometric functions, which provides an efficient Bayesian analysis based on numerical integration, which requires little user-interaction and runs in seconds on a common office computer. Additionally it fits a beta-binomial model increasing the stability against non-stationarity and contains standard settings including a heuristic to set the prior based on the interval of stimulus levels in the experimental data. Obviously all properties of the analysis can be adjusted. To test our method it was run on extensive simulated datasets. First we tested the numerical accuracy of our method with different settings and found settings which calculate a good estimate fast and reliably. Testing the statistical properties, we find that our method calculates correct or slightly conservative confidence intervals in all tested conditions, including different sampling schemes, beta-binomial observers, other non-stationary observers and adaptive methods. When enough data was \u2026",
+    "Total citations": "Cited by 11\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Psignifit 4: Pain-free Bayesian inference for psychometric functions\nH Sch\u00fctt, S Harmeling, J Macke, F Wichmann - 15th Annual Meeting of the Vision Sciences Society \u2026, 2015\nCited by 11 Related articles"
+  }, {
+    "title": "Solving satisfiability problems with genetic algorithms",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "2000/3/9",
+    "Journal": "Genetic Algorithms and Genetic Programming at Stanford",
+    "Pages": "206-213",
+    "Description": "We show how to solve hard 3-SAT problems using genetic algorithms. Furthermore, we explore other genetic operators that may be useful to tackle 3-SAT problems, and discuss their pros and cons.",
+    "Total citations": "Cited by 8\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "Solving satisfiability problems with genetic algorithms\nS Harmeling - Genetic Algorithms and Genetic Programming at \u2026, 2000\nCited by 8 Related articles All 6 versions"
+  }, {
+    "title": "How to test the quality of reconstructed sources in independent component analysis (ICA) of EEG/MEG data",
+    "Authors": "Moritz Grosse-Wentrup, Stefan Harmeling, Thorsten Zander, Jeremy Hill, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2013/6/22",
+    "Conference": "2013 International Workshop on Pattern Recognition in Neuroimaging",
+    "Pages": "102-105",
+    "Publisher": "IEEE",
+    "Description": "We provide a simple method, based on volume conduction models, to quantify the neurophysiological plausibility of independent components (ICs) reconstructed from EEG/MEG data. We evaluate the method on EEG data recorded from 19 subjects and compare the results with two established procedures for judging the quality of ICs. We argue that our procedure provides a sound empirical basis for the inclusion or exclusion of ICs in the analysis of experimental data.",
+    "Total citations": "Cited by 6\n2015\n2016\n2017\n2018",
+    "Scholar articles": "How to test the quality of reconstructed sources in independent component analysis (ICA) of EEG/MEG data\nM Grosse-Wentrup, S Harmeling, T Zander, J Hill\u2026 - 2013 International Workshop on Pattern Recognition in \u2026, 2013\nCited by 6 Related articles All 8 versions"
+  }, {
+    "title": "Independent component analysis and beyond",
+    "Authors": "Erkki Oja, Stefan Harmeling, Luis Almeida",
+    "Publication date": "2004/2/1",
+    "Journal": "Signal Processing",
+    "Volume": "84",
+    "Issue": "2",
+    "Pages": "215-216",
+    "Publisher": "Elsevier North-Holland, Inc.",
+    "Description": "Help Design Your New ACM Digital Library. We're upgrading the ACM DL, and would like your input. Please sign up to review new features, functionality and page designs. Leave an email address: or Follow @ACMDL. or [Not interested]. Google, Inc. (search) \u2026",
+    "Total citations": "Cited by 6\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015",
+    "Scholar articles": "Independent component analysis and beyond\nE Oja, S Harmeling, L Almeida - Signal Processing, 2004\nCited by 6 Related articles All 5 versions"
+  }, {
+    "title": "Parcellation of visual cortex on high-resolution histological brain sections using convolutional neural networks",
+    "Authors": "Hannah Spitzer, Katrin Amunts, Stefan Harmeling, Timo Dickscheid",
+    "Publication date": "2017/4/18",
+    "Conference": "2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017)",
+    "Pages": "920-923",
+    "Publisher": "IEEE",
+    "Description": "Microscopic analysis of histological sections is considered the \u201cgold standard\u201d to verify structural parcellations in the human brain. Its high resolution allows the study of laminar and columnar patterns of cell distributions, which build an important basis for the simulation of cortical areas and networks. However, such cytoarchitectonic mapping is a semiautomatic, time consuming process that does not scale with high throughput imaging. We present an automatic approach for parcellating histological sections at 2\u03bcm resolution. It is based on a convolutional neural network that combines topological information from probabilistic atlases with the texture features learned from high-resolution cell-body stained images. The model is applied to visual areas and trained on a sparse set of partial annotations. We show how predictions are transferable to new brains and spatially consistent across sections.",
+    "Total citations": "Cited by 5\n2017\n2018\n2019",
+    "Scholar articles": "Parcellation of visual cortex on high-resolution histological brain sections using convolutional neural networks\nH Spitzer, K Amunts, S Harmeling, T Dickscheid - 2017 IEEE 14th International Symposium on \u2026, 2017\nCited by 5 Related articles All 5 versions"
+  }, {
+    "title": "Improving alpha matting and motion blurred foreground estimation",
+    "Authors": "Rolf K\u00f6hler, Michael Hirsch, Bernhard Sch\u00f6lkopf, Stefan Harmeling",
+    "Publication date": "2013/9/15",
+    "Conference": "2013 IEEE International Conference on Image Processing",
+    "Pages": "3446-3450",
+    "Publisher": "IEEE",
+    "Description": "We present a new method for separating motion blurred foreground objects from their background given a single image. Previous techniques focused on estimating alpha mattes for separating sharp, non-moving foreground objects from fairly homogeneous background. In those cases the only pixels which are ambiguous are those which exhibit fractional pixel occupancy. In this paper, we address the problem of alpha matte and foreground estimation of motion blurred objects. We show, that explicit modeling of the object motion facilitates the estimation and improves the quality of the estimated alpha mattes. In addition, we improve foreground extraction of motion blurred objects with a new regularization term. This task is particularly difficult in smeared out regions, where the background shimmers through. Both synthetic and real-world examples illustrate the merit of our approach.",
+    "Total citations": "Cited by 5\n2014\n2015\n2016\n2017\n2018\n2019",
+    "Scholar articles": "Improving alpha matting and motion blurred foreground estimation\nR K\u00f6hler, M Hirsch, B Sch\u00f6lkopf, S Harmeling - 2013 IEEE International Conference on Image \u2026, 2013\nCited by 5 Related articles All 6 versions"
+  }, {
+    "title": "Automatic foreground-background refocusing",
+    "Authors": "Alexander Loktyushin, Stefan Harmeling",
+    "Publication date": "2011/9/11",
+    "Conference": "2011 18th IEEE International Conference on Image Processing",
+    "Pages": "3445-3448",
+    "Publisher": "IEEE",
+    "Description": "A challenging problem in image restoration is to recover an image with a blurry foreground. Such images can easily occur with modern cameras, when the auto-focus aims mistakenly at the background (which will appear sharp) instead of the foreground, where usually the object of interest is. In this paper we propose an automatic procedure that (i) estimates the amount of out-of-focus blur, (ii) segments the image into foreground and background incorporating clues from the blurriness, (iii) recovers the sharp foreground, and finally (iv) blurs the background to refocus the scene. On several real photographs with blurry foreground and sharp background, we demonstrate the effectiveness and limitations of our method.",
+    "Total citations": "Cited by 5\n2013\n2014\n2015\n2016\n2017\n2018",
+    "Scholar articles": "Automatic foreground-background refocusing\nA Loktyushin, S Harmeling - 2011 18th IEEE International Conference on Image \u2026, 2011\nCited by 5 Related articles All 6 versions"
+  }, {
+    "title": "On a link between kernel mean maps and Fraunhofer diffraction, with an application to super-resolution beyond the diffraction limit",
+    "Authors": "Stefan Harmeling, Michael Hirsch, Bernhard Scholkopf",
+    "Publication date": "2013",
+    "Conference": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "Pages": "1083-1090",
+    "Description": "We establish a link between Fourier optics and a recent construction from the machine learning community termed the kernel mean map. Using the Fraunhofer approximation, it identifies the kernel with the squared Fourier transform of the aperture. This allows us to use results about the invertibility of the kernel mean map to provide a statement about the invertibility of Fraunhofer diffraction, showing that imaging processes with arbitrarily small apertures can in principle be invertible, ie, do not lose information, provided the objects to be imaged satisfy a generic condition. A real world experiment shows that we can super-resolve beyond the Rayleigh limit.",
+    "Total citations": "Cited by 3\n2015\n2016\n2017",
+    "Scholar articles": "On a link between kernel mean maps and Fraunhofer diffraction, with an application to super-resolution beyond the diffraction limit\nS Harmeling, M Hirsch, B Scholkopf - Proceedings of the IEEE Conference on Computer \u2026, 2013\nCited by 3 Related articles All 12 versions"
+  }, {
+    "title": "Pregnancy up-regulated, nonubiquitous CaM kinase",
+    "Inventors": "Lewis A Chodosh, Heather P Gardner",
+    "Publication date": "2006/5/9",
+    "Patent office": "US",
+    "Patent number": "7041495",
+    "Application number": "10032254",
+    "Description": "This invention relates generally to a novel CaM multi-functional protein kinase, which has been named Pregnancy Up-Regulated, Nonubiquitous CaM Kinase (PNCK), and to the nucleotide sequence encoding it. The kinase is temporally expressed during postnatal mammary development in a spatially heterogeneous manner in certain subsets of cells, and overexpressed in a subset of primary breast cancers. The invention further relates to an analysis of a correlation between carcinogenesis and postnatal development, particularly mammary development, especially associated with parity; as well as to methods of using the kinase, or gene encoding it, as markers, prognostic tools, screening tools and therapies, in vitro and in vivo that are based upon that correlation.",
+    "Total citations": "Cited by 3\n2011\n2012\n2013\n2014\n2015\n2016\n2017",
+    "Scholar articles": "Pregnancy up-regulated, nonubiquitous CaM kinase\nLA Chodosh, HP Gardner - US Patent 7,041,495, 2006\nCited by 3 Related articles All 4 versions"
+  }, {
+    "title": "Technical report on implementation of linear methods and validation on acoustic sources",
+    "Authors": "S Harmeling, P B\u00fcnau, A Ziehe, DT Pham",
+    "Publication date": "2003/9",
+    "Description": "Autor: Harmeling, S et al.; Genre: Bericht; Im Druck ver\u00f6ffentlicht: 2003-09; Titel: Technical report on implementation <br/>of linear methods and validation on <br/>acoustic sources.",
+    "Total citations": "Cited by 3\n2004\n2005",
+    "Scholar articles": "Technical report on implementation of linear methods and validation on acoustic sources\nS Harmeling, P B\u00fcnau, A Ziehe, DT Pham - 2003\nCited by 3 Related articles"
+  }, {
+    "title": "Improving cytoarchitectonic segmentation of human brain areas with self-supervised siamese networks",
+    "Authors": "Hannah Spitzer, Kai Kiwitz, Katrin Amunts, Stefan Harmeling, Timo Dickscheid",
+    "Publication date": "2018/9/16",
+    "Conference": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "Pages": "663-671",
+    "Publisher": "Springer, Cham",
+    "Description": "Cytoarchitectonic parcellations of the human brain serve as anatomical references in multimodal atlas frameworks. They are based on analysis of cell-body stained histological sections and the identification of borders between brain areas. The de-facto standard involves a semi-automatic, reproducible border detection, but does not scale with high-throughput imaging in large series of sections at microscopical resolution. Automatic parcellation, however, is extremely challenging due to high variation in the data, and the need for a large field of view at microscopic resolution. The performance of a recently proposed Convolutional Neural Network model that addresses this problem especially suffers from the naturally limited amount of expert annotations for training. To circumvent this limitation, we propose to pre-train neural networks on a self-supervised auxiliary task, predicting the 3D distance between two \u2026",
+    "Total citations": "Cited by 2\n2019",
+    "Scholar articles": "Improving cytoarchitectonic segmentation of human brain areas with self-supervised siamese networks\nH Spitzer, K Kiwitz, K Amunts, S Harmeling\u2026 - International Conference on Medical Image Computing \u2026, 2018\nCited by 2 Related articles All 5 versions"
+  }, {
+    "title": "Maximizing Kepler science return per telemetered pixel: Detailed models of the focal plane in the two-wheel era",
+    "Authors": "David W Hogg, Ruth Angus, Tom Barclay, Rebekah Dawson, Rob Fergus, Dan Foreman-Mackey, Stefan Harmeling, Michael Hirsch, Dustin Lang, Benjamin T Montet, David Schiminovich, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2013/9/3",
+    "Journal": "arXiv preprint arXiv:1309.0653",
+    "Description": "Kepler's immense photometric precision to date was maintained through satellite stability and precise pointing. In this white paper, we argue that image modeling--fitting the Kepler-downlinked raw pixel data--can vastly improve the precision of Kepler in pointing-degraded two-wheel mode. We argue that a non-trivial modeling effort may permit continuance of photometry at 10-ppm-level precision. We demonstrate some baby steps towards precise models in both data-driven (flexible) and physics-driven (interpretably parameterized) modes. We demonstrate that the expected drift or jitter in positions in the two-weel era will help with constraining calibration parameters. In particular, we show that we can infer the device flat-field at higher than pixel resolution; that is, we can infer pixel-to-pixel variations in intra-pixel sensitivity. These results are relevant to almost any scientific goal for the repurposed mission; image modeling ought to be a part of any two-wheel repurpose for the satellite. We make other recommendations for Kepler operations, but fundamentally advocate that the project stick with its core mission of finding and characterizing Earth analogs.[abridged]",
+    "Total citations": "Cited by 2\n2016\n2017",
+    "Scholar articles": "Maximizing Kepler science return per telemetered pixel: Detailed models of the focal plane in the two-wheel era\nDW Hogg, R Angus, T Barclay, R Dawson, R Fergus\u2026 - arXiv preprint arXiv:1309.0653, 2013\nCited by 2 Related articles All 12 versions"
+  }, {
+    "title": "Bayesian estimators for Robins-Ritov\u2019s problem",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "2007/10",
+    "Description": "Bayesian or likelihood-based approaches to data analysis became very popular in the 64257; eld of Machine Learning. However, there exist theoretical results which question the general applicability of such approaches; among those a result by Robins and Ritov which introduce a speci64257; c example for which they prove that a likelihood-based estimator will fail (ie it does for certain cases not converge to a true parameter estimate, even given in64257; nite data). In this paper we consider various approaches to formulate likelihood-based estimators in this example, basically by considering various extensions of the presumed generative model of the data. We can derive estimators which are very similar to the classical Horvitz-Thompson and which also account for a priori knowledge of an observation probability function.",
+    "Total citations": "Cited by 2\n2014",
+    "Scholar articles": "Bayesian estimators for Robins-Ritov\u2019s problem\nS Harmeling - 2007\nCited by 2 Related articles All 11 versions"
+  }, {
+    "title": "Towards denoising XMCD movies of fast magnetization dynamics using extended Kalman filter",
+    "Authors": "M Kopp, S Harmeling, G Sch\u00fctz, B Sch\u00f6lkopf, M F\u00e4hnle",
+    "Publication date": "2015/1/1",
+    "Journal": "Ultramicroscopy",
+    "Volume": "148",
+    "Pages": "115-122",
+    "Publisher": "North-Holland",
+    "Description": "The Kalman filter is a well-established approach to get information on the time-dependent state of a system from noisy observations. It was developed in the context of the Apollo project to see the deviation of the true trajectory of a rocket from the desired trajectory. Afterwards it was applied to many different systems with small numbers of components of the respective state vector (typically about 10). In all cases the equation of motion for the state vector was known exactly. The fast dissipative magnetization dynamics is often investigated by x-ray magnetic circular dichroism movies (XMCD movies), which are often very noisy. In this situation the number of components of the state vector is extremely large (about 105), and the equation of motion for the dissipative magnetization dynamics (especially the values of the material parameters of this equation) is not well known. In the present paper it is shown by theoretical \u2026",
+    "Total citations": "Cited by 1\n2017",
+    "Scholar articles": "Towards denoising XMCD movies of fast magnetization dynamics using extended Kalman filter\nM Kopp, S Harmeling, G Sch\u00fctz, B Sch\u00f6lkopf, M F\u00e4hnle - Ultramicroscopy, 2015\nCited by 1 Related articles All 6 versions"
+  }, {
+    "title": "An Incremental GEM Framework for Multiframe Blind Deconvolution, Super-Resolution, and Saturation Correction",
+    "Authors": "Stefan Harmeling, Suvrit Sra, Michael Hirsch, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2009/11",
+    "Publisher": "Max Planck Institute for Biological Cybernetics",
+    "Description": "We develop an incremental generalized expectation maximization (GEM) framework to model the multiframe blind deconvolution problem. A simplistic version of this problem was recently studied by Harmeling etal~ citeharmeling09}. We solve a more realistic version of this problem which includes the following major features:(i) super-resolution ability emph {despite noise and unknown blurring;(ii) saturation-correction, ie, handling of overexposed pixels that can otherwise confound the image processing; and (iii) simultaneous handling of color channels. These features are seamlessly integrated into our incremental GEM framework to yield simple but efficient multiframe blind deconvolution algorithms. We present technical details concerning critical steps of our algorithms, especially to highlight how all operations can be written using matrix-vector multiplications. We apply our algorithm to real-world images from astronomy and super resolution tasks. Our experimental results show that our methods yield improve d resolution and deconvolution at the same time.",
+    "Total citations": "Cited by 1\n2010",
+    "Scholar articles": "An Incremental GEM Framework for Multiframe Blind Deconvolution, Super-Resolution, and Saturation Correction\nS Harmeling, S Sra, M Hirsch, B Sch\u00f6lkopf - 2009\nCited by 1 Related articles All 6 versions"
+  }, {
+    "title": "Technical report on Separation methods for nonlinear mixtures",
+    "Authors": "C Jutten, J Karhunen, L Almeida, S Harmeling",
+    "Publication date": "2003/10",
+    "Description": "Autor: Jutten, C et al.; Genre: Bericht; Im Druck ver\u00f6ffentlicht: 2003-10; Titel: Technical report on <br/>Separation methods for nonlinear <br/>mixtures.",
+    "Total citations": "Cited by 1\n2004",
+    "Scholar articles": "Technical report on Separation methods for nonlinear mixtures\nC Jutten, J Karhunen, L Almeida, S Harmeling - 2003\nCited by 1 Related articles"
+  }, {
+    "title": "On the Vulnerability of Capsule Networks to Adversarial Attacks",
+    "Authors": "Felix Michels, Tobias Uelwer, Eric Upschulte, Stefan Harmeling",
+    "Publication date": "2019/6/9",
+    "Journal": "arXiv preprint arXiv:1906.03612",
+    "Description": "This paper extensively evaluates the vulnerability of capsule networks to different adversarial attacks. Recent work suggests that these architectures are more robust towards adversarial attacks than other neural networks. However, our experiments show that capsule networks can be fooled as easily as convolutional neural networks.",
+    "Scholar articles": "On the Vulnerability of Capsule Networks to Adversarial Attacks\nF Michels, T Uelwer, E Upschulte, S Harmeling - arXiv preprint arXiv:1906.03612, 2019\nRelated articles All 2 versions"
+  }, {
+    "title": "Compact feature representations for human brain cytoarchitecture using self-supervised learning",
+    "Authors": "Hannah Spitzer, Katrin Amunts, Stefan Harmeling, Timo Dickscheid",
+    "Publication date": "2018/4/11",
+    "Description": "The high number of neurons and the complex segregation of the human brain based on cytoarchitecture require an automated analytics approach. Therefore, we are analyzing images of 1 \u03bcm resolution histological sections stained for cell bodies using deep learning. The severely limited training data for supervised brain region segmentation represents a challenge for such analysis. We solve it by learning a feature embedding from patches of cortex using a self-supervised Siamese network. The distance between two features corresponds to the distance of the respective image patch locations in the 3D anatomical space. In this contribution, we show that the learned features encode distinctive cytoarchitectonic attributes of the input patches, and form anatomically relevant clusters across the brain.",
+    "Scholar articles": "Compact feature representations for human brain cytoarchitecture using self-supervised learning\nH Spitzer, K Amunts, S Harmeling, T Dickscheid - 2018"
+  }, {
+    "title": "Editor\u2019s note: 25th Anniversary Special Issue",
+    "Authors": "Patrick Baudry, Gilles Celeux, Andrew M Stuart, Krikamol Muandet, Kenji Fukumizu, Stefan Harmeling, Simon Barthelm\u00e9, Nicolas Chopin, Edoardo M Airoldi, Andrew Gelman, Tian Zheng, Christian Hennig, Chien-Ju Lin, Marcelo Pereyra \u0141atuszynski, Christian P Robert",
+    "Publication date": "2015",
+    "Description": "The Statistics and Computing journal gratefully acknowledges the contributions for this special issue, celebrating 25 years of publication. In the past 25 years, the journal has published innovative, distinguished research by leading scholars and professionals. Papers have been read by thousands of researchers world-wide, demonstrating the global importance of this field. TheStatistics and Computingjournal looks forward to many more years of exciting research as the field continues to expand.",
+    "Scholar articles": "Editor\u2019s note: 25th Anniversary Special Issue\nP Baudry, G Celeux, AM Stuart, K Muandet\u2026 - 2015"
+  }, {
+    "title": "Pain-free bayesian inference for psychometric functions",
+    "Authors": "Heiko Sch\u00fctt, Stefan Harmeling, Jakob Macke, Felix Wichmann",
+    "Publication date": "2014/8/1",
+    "Conference": "2014 European Mathematical Psychology Group Meeting (EMPG)",
+    "Pages": "38-39",
+    "Description": "Densities and example functions for our default prior distributions for a psychometric function sampled at the black dots on the xaxis. The filled color circles in the densities in the top row correspond to the psychometric functions of the same color in the lower row. We choose prior distributions based on where the psychometric function is sampled.",
+    "Scholar articles": "Pain-free bayesian inference for psychometric functions\nH Sch\u00fctt, S Harmeling, J Macke, F Wichmann - 2014 European Mathematical Psychology Group \u2026, 2014\nAll 5 versions"
+  }, {
+    "title": "Maximizing Kepler science return per telemetered pixel: Searching the habitable zones of the brightest stars",
+    "Authors": "Benjamin T Montet, Ruth Angus, Tom Barclay, Rebekah Dawson, Rob Fergus, Dan Foreman-Mackey, Stefan Harmeling, Michael Hirsch, David W Hogg, Dustin Lang, David Schiminovich, Bernhard Scholkopf",
+    "Publication date": "2013/9/3",
+    "Journal": "arXiv preprint arXiv:1309.0654",
+    "Description": "In today's mailing, Hogg et al. propose image modeling techniques to maintain 10-ppm-level precision photometry in Kepler data with only two working reaction wheels. While these results are relevant to many scientific goals for the repurposed mission, all modeling efforts so far have used a toy model of the Kepler telescope. Because the two-wheel performance of Kepler remains to be determined, we advocate for the consideration of an alternate strategy for a> 1 year program that maximizes the science return from the\" low-torque\" fields across the ecliptic plane. Assuming we can reach the precision of the original Kepler mission, we expect to detect 800 new planet candidates in the first year of such a mission. Our proposed strategy has benefits for transit timing variation and transit duration variation studies, especially when considered in concert with the future TESS mission. We also expect to help address the first key science goal of Kepler: the frequency of planets in the habitable zone as a function of spectral type.",
+    "Scholar articles": "Maximizing Kepler science return per telemetered pixel: Searching the habitable zones of the brightest stars\nBT Montet, R Angus, T Barclay, R Dawson, R Fergus\u2026 - arXiv preprint arXiv:1309.0654, 2013\nRelated articles All 11 versions"
+  }, {
+    "title": "Significant Reduction of Global Carbon Uptake by Water-Cycle Driven Extreme Vegetation Anomalies",
+    "Authors": "J Zscheischler, MD Mahecha, J von Buttlar, S Harmeling, M Jung, JT Randerson, M Reichstein",
+    "Publication date": "2012/12",
+    "Journal": "AGU Fall Meeting Abstracts",
+    "Description": "Understanding the role of climate extremes is increasingly in the focus of Earth system sciences and highly relevant to climate change assessments. In particular, we need a precise understanding of the impact of extreme events on the terrestrial biosphere in order to quantify the relevance for, and feedbacks with, the climate system. Previous studies have shown that climate extremes may have severe regional effects on the carbon cycle, but a state--of--the--art global impact assessment is still lacking. Hence, we quantify the impact of extreme anomalies in the state of vegetation on the global gross primary productivity (GPP). Using a definition of less than 5% chance of occurrence, we estimate that the 100 largest extreme events experienced by the terrestrial biosphere over the last 30 years are responsible for a decrease in carbon uptake of about 30 Pg C. We find that most extremes are best explainable by phases \u2026",
+    "Scholar articles": "Significant Reduction of Global Carbon Uptake by Water-Cycle Driven Extreme Vegetation Anomalies\nJ Zscheischler, MD Mahecha, J von Buttlar\u2026 - AGU Fall Meeting Abstracts, 2012"
+  }, {
+    "title": "Efficient Space-Variant Blind Deconvolution",
+    "Authors": "Stefan Harmeling, Michael Hirsch, Suvrit Sra, Christian Schuler, Bernhard Sch\u00f6lkopf",
+    "Publication date": "2010/12/11",
+    "Conference": "NIPS 2010 Workshop on Numerical Mathematics Challenges in Machine Learning (NUMML 2010)",
+    "Description": "Page 1. Efficient Space-Variant Blind Deconvolution Stefan Harmeling joint work with Michael Hirsch, Suvrit Sra, Christian Schuler, and Bernhard Sch\u00f6lkopf Max Planck Institute for Biological Cybernetics, T\u00fcbingen, Germany NIPS Workshop on Numerical Mathematics Challenges in Machine Learning (NUMML) Whistler, 11. December 2010 Page 2. What is Space-Variant Convolution? Page 3. Space-Invariant Convolution: yi = k-1 \u2211 j=0 ajxi-j \u25b6 a is called space-invariant Point Spread Function (PSF). \u25b6 a does not depend on the location in y. Page 4. Space-Invariant Convolution: yi = k-1 \u2211 j=0 ajxi-j \u25b6 a is called space-invariant Point Spread Function (PSF). \u25b6 a does not depend on the location in y. Space-Variant Convolution: yi = k-1 \u2211 j=0 bijxi-j \u25b6 b is called space-variant Point Spread Function (PSF). \u25b6 b does depend on the location in image y. Page 5. Space-Invariant Convolution: yi = k-1 \u2211 j=0 ajxi-j \u2026",
+    "Scholar articles": "Efficient Space-Variant Blind Deconvolution\nS Harmeling, M Hirsch, S Sra, C Schuler, B Sch\u00f6lkopf - NIPS 2010 Workshop on Numerical Mathematics \u2026, 2010\nAll 2 versions"
+  }, {
+    "title": "Using kernel PCA for initialization of nonlinear factor analysis",
+    "Authors": "Antti Honkela, Stefan Harmeling, Leo Lundqvist, Harri Valpola",
+    "Publication date": "2003",
+    "Publisher": "Technical Report 1/2003, European Commission Research Project BLISS (Blind Source Separation and Applications), IST-1999-14190",
+    "Description": "The nonlinear factor analysis (NFA) method by Lappalainen and Honkela (2000)[2] is initialised with linear principal component analysis (PCA). Because of the multilayer perceptron (MLP) network used to model the nonlinearity, the method is susceptible to local minima and therefore sensitive to the initialisation used. As the method is used for nonlinear separation, the linear initialisation may in some cases lead it astray. In this report we study using kernel PCA (KPCA) to initialise NFA. KPCA is a rather straightforward generalisation of linear PCA and it is much faster to compute than NFA. The experiments show that it may produce significantly better initialisations than linear PCA, although finding a suitable kernel and parameters may be difficult.",
+    "Scholar articles": "Using kernel PCA for initialization of nonlinear factor analysis\nA Honkela, S Harmeling, L Lundqvist, H Valpola - 2003\nRelated articles All 3 versions"
+  }, {
+    "title": "Eine beweistheoretische Anwendung der <_k-Relation",
+    "Authors": "Stefan Harmeling",
+    "Publication date": "1998/5",
+    "Institution": "Universit\u00e4t M\u00fcnster",
+    "Description": "1Sei L eine Sprache der Pr\u00e4dikatenlogik und Ax eine Menge von L-S\u00e4tzen. Eine Funktion f hei\u00dft Skolem-Funktion zur Formel\u2200 x\u2203 y \u03a6 (x, y), falls \u03a6 eine L-Formel ohne Pr\u00e4dikatskonstanten ist und im Standardmodell f\u00fcr alle n die Formel \u03a6 (n, f (n)) gilt. Die \u03a00",
+    "Scholar articles": "Eine beweistheoretische Anwendung der< k-Relation\nS Harmeling - Die Sprache, 1998\nRelated articles\nEine beweistheoretische Anwendung der*\nS Harmeling - 1998"
+  }]
+}
