@@ -5,7 +5,8 @@ import os.path
 file_directories = {
         'tweeter_data_import': '/home/faramarz/Documents/coding_projects/predicting_topic_based_social_influence/data_sandbox/twitter/data/',
         'scholar_data_import': '/home/faramarz/Documents/coding_projects/predicting_topic_based_social_influence/data_sandbox/scholar_data/',
-        'cleaned_data_export': '/home/faramarz/Documents/coding_projects/predicting_topic_based_social_influence/data_sandbox/cleaned_data/',
+        'cleaned_data': '/home/faramarz/Documents/coding_projects/predicting_topic_based_social_influence/data_sandbox/cleaned_data/',
+        'classified_data': '/home/faramarz/Documents/coding_projects/predicting_topic_based_social_influence/data_sandbox/classified_data/',
     }
 
 def getTwitterFilePaths():
@@ -29,7 +30,7 @@ def writeCleanedUserJsonToFile(data, id):
         data ([dict]): [user's data]
         id ([int]): [user's id]
     """
-    with open(file_directories['cleaned_data_export']+str(id)+".json", "w") as file:
+    with open(file_directories['cleaned_data']+str(id)+".json", "w") as file:
         json.dump(data, file)
 pass
 
@@ -48,4 +49,32 @@ def getUserScholarByUserAttr(attr):
     else:
         data = None
     return data
+pass
+
+def getCleanedData():
+    data = []
+    for r, d, f in os.walk(file_directories['cleaned_data']):
+        for file in f:
+            with open(file_directories['cleaned_data']+file) as jsonFile:
+                    data.append(json.load(jsonFile))
+    return data
+
+def writeClassifiedUserByFriendsInFile(data,):
+    """ write users which classified by their friends count
+
+    Args:
+        data ([dict]): [user's data]
+    """
+    with open(file_directories['classified_data']+"classified_user_by_friends_count.json", "w") as file:
+        json.dump(data, file)
+pass
+
+def writeClassifiedUserByCitationsInFile(data,):
+    """ write users which classified by their citations
+
+    Args:
+        data ([dict]): [user's data]
+    """
+    with open(file_directories['classified_data']+"classified_user_by_citations.json", "w") as file:
+        json.dump(data, file)
 pass
