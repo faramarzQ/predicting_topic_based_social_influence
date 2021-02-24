@@ -1,5 +1,6 @@
 import os
 import json
+import os.path
 
 file_directories = {
         'tweeter_data_import': '/home/faramarz/Documents/coding_projects/predicting_topic_based_social_influence/data_sandbox/twitter/data/',
@@ -30,4 +31,21 @@ def writeCleanedUserJsonToFile(data, id):
     """
     with open(file_directories['cleaned_data_export']+str(id)+".json", "w") as file:
         json.dump(data, file)
+pass
+
+def getUserScholarByUserAttr(attr):
+    """ get scholar data of user with it's name
+        (file name of user's scholar is his/her name)
+
+    Args:
+        name ([string]): [user's name]
+    """
+    filePath = file_directories['scholar_data_import']+attr+'.json'
+
+    if os.path.isfile(filePath):
+        with open(filePath) as jsonFile:
+            data = json.load(jsonFile)
+    else:
+        data = None
+    return data
 pass

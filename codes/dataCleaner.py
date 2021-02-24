@@ -22,7 +22,7 @@ if __name__ == '__main__':
     desired_features = {
         'user': ['id', 'name', 'favourites_count', 'followers_count', 'friends_count', 'tweets', 'scholar'],
         'tweet': ['id', 'preprocessed_text'],
-        'scholar': ['citations', 'h_index', 'papers_count']
+        'scholar': ['citations', 'hindex']
     }
 
     single_user_data = {}
@@ -36,7 +36,7 @@ if __name__ == '__main__':
             single_user_data = userObj.getAsDict()
 
             # write cleaned data in file
-            repository.writeCleanedUserJsonToFile(single_user_data, userObj.id)
+            repository.writeCleanedUserJsonToFile(single_user_data, userObj.name)
 
             del userObj
 pass
